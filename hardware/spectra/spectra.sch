@@ -25,25 +25,14 @@ F 3 "https://www.ti.com/lit/ds/symlink/tlv170.pdf" H 6800 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J4
-U 1 1 60CA3D47
-P 4350 4750
-F 0 "J4" H 4400 4550 50  0000 C CNN
-F 1 "Coil" H 4400 4976 50  0000 C CNN
-F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 4350 4750 50  0001 C CNN
-F 3 "~" H 4350 4750 50  0001 C CNN
-	1    4350 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 60CA6062
-P 4800 4750
-F 0 "#PWR0101" H 4800 4500 50  0001 C CNN
-F 1 "GND" H 4805 4577 50  0000 C CNN
-F 2 "" H 4800 4750 50  0001 C CNN
-F 3 "" H 4800 4750 50  0001 C CNN
-	1    4800 4750
+P 4400 4750
+F 0 "#PWR0101" H 4400 4500 50  0001 C CNN
+F 1 "GND" H 4405 4577 50  0000 C CNN
+F 2 "" H 4400 4750 50  0001 C CNN
+F 3 "" H 4400 4750 50  0001 C CNN
+	1    4400 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,8 +90,8 @@ F 3 "~" H 8600 4550 50  0001 C CNN
 	1    8600 4550
 	0    1    1    0   
 $EndComp
-Text GLabel 9200 4550 2    50   Input ~ 0
-Out
+Text GLabel 8950 4550 2    50   Input ~ 0
+mix
 $Comp
 L power:GND #PWR0108
 U 1 1 60CE2F96
@@ -123,18 +112,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 3550 6200 3550
 Connection ~ 6200 3550
-Wire Wire Line
-	5200 4650 4650 4650
-Wire Wire Line
-	3950 4650 4150 4650
-Wire Wire Line
-	4800 4750 4650 4750
-Wire Wire Line
-	4150 4850 4150 5050
-Wire Wire Line
-	4150 5050 4650 5050
-Wire Wire Line
-	4650 5050 4650 4850
 Wire Wire Line
 	6900 3650 6900 3550
 Wire Wire Line
@@ -178,16 +155,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0109
 U 1 1 60D40697
-P 3950 4750
-F 0 "#PWR0109" H 3950 4500 50  0001 C CNN
-F 1 "GND" H 3955 4577 50  0000 C CNN
-F 2 "" H 3950 4750 50  0001 C CNN
-F 3 "" H 3950 4750 50  0001 C CNN
-	1    3950 4750
+P 3450 4750
+F 0 "#PWR0109" H 3450 4500 50  0001 C CNN
+F 1 "GND" H 3455 4577 50  0000 C CNN
+F 2 "" H 3450 4750 50  0001 C CNN
+F 3 "" H 3450 4750 50  0001 C CNN
+	1    3450 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 4750 3950 4750
+	3650 4750 3450 4750
 $Comp
 L Device:R R1
 U 1 1 60CA74D0
@@ -498,15 +475,8 @@ Text Notes 8150 7650 0    50   ~ 0
 June 17, 2021
 Text Notes 10600 7650 0    50   ~ 0
 1.0
-Text Notes 4250 5150 0    50   ~ 0
+Text Notes 3750 5150 0    50   ~ 0
 Main Coil
-Wire Wire Line
-	9200 4550 8950 4550
-Wire Wire Line
-	8750 4550 8950 4550
-Connection ~ 8950 4550
-Wire Wire Line
-	8950 4050 8950 4550
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60D54A12
@@ -532,38 +502,8 @@ Wire Wire Line
 	5800 2350 5800 2100
 Wire Wire Line
 	5500 2100 5800 2100
-Wire Wire Line
-	5150 2200 4950 2200
-Wire Wire Line
-	5150 2350 5150 2200
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 60D52BC1
-P 5150 2350
-F 0 "#FLG02" H 5150 2425 50  0001 C CNN
-F 1 "PWR_FLAG" H 5000 2550 50  0000 C CNN
-F 2 "" H 5150 2350 50  0001 C CNN
-F 3 "~" H 5150 2350 50  0001 C CNN
-	1    5150 2350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4950 2200 4950 2350
-$Comp
-L power:GND #PWR0106
-U 1 1 60CDB5FB
-P 4950 2350
-F 0 "#PWR0106" H 4950 2100 50  0001 C CNN
-F 1 "GND" H 4950 2150 50  0000 C CNN
-F 2 "" H 4950 2350 50  0001 C CNN
-F 3 "" H 4950 2350 50  0001 C CNN
-	1    4950 2350
-	1    0    0    -1  
-$EndComp
 Text GLabel 6850 2100 2    50   Input ~ 0
 V+
-Text GLabel 4000 2300 2    50   Input ~ 0
-Out
 $Comp
 L power:GND #PWR0105
 U 1 1 60CCD190
@@ -619,91 +559,14 @@ F 3 "~" H 5350 2100 50  0001 C CNN
 	1    5350 2100
 	-1   0    0    1   
 $EndComp
+Text GLabel 3350 4200 0    50   Input ~ 0
+ext_coil+
+Text GLabel 3350 4300 0    50   Input ~ 0
+ext_coil-
+Text GLabel 8500 3950 2    50   Input ~ 0
+out
 Wire Wire Line
-	3950 4300 3950 4650
-Wire Wire Line
-	4950 4450 4950 4200
-Wire Wire Line
-	3850 2300 4000 2300
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J1
-U 1 1 60CB8C21
-P 3550 2300
-F 0 "J1" H 3600 2717 50  0000 C CNN
-F 1 "I/O" H 3600 2626 50  0000 C CNN
-F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3550 2300 50  0001 C CNN
-F 3 "~" H 3550 2300 50  0001 C CNN
-	1    3550 2300
-	1    0    0    -1  
-$EndComp
-Text GLabel 3850 2400 2    50   Input ~ 0
-mix_shunt_1
-Wire Wire Line
-	3850 2100 5200 2100
-Wire Wire Line
-	3850 2200 4950 2200
-Connection ~ 4950 2200
-Text GLabel 3850 2500 2    50   Input ~ 0
-mix_shunt_2
-Text GLabel 3350 2100 0    50   Input ~ 0
-ext_coil_1
-Text GLabel 3350 2300 0    50   Input ~ 0
-ext_coil_2
-$Comp
-L power:GND #PWR0107
-U 1 1 60CC841D
-P 2450 2200
-F 0 "#PWR0107" H 2450 1950 50  0001 C CNN
-F 1 "GND" H 2450 2000 50  0000 C CNN
-F 2 "" H 2450 2200 50  0001 C CNN
-F 3 "" H 2450 2200 50  0001 C CNN
-	1    2450 2200
-	1    0    0    -1  
-$EndComp
-Text GLabel 3350 2400 0    50   Input ~ 0
-ext_coil_shunt_1
-Wire Wire Line
-	2450 2200 3350 2200
-Text GLabel 3350 2500 0    50   Input ~ 0
-ext_coil_shunt_2
-Text GLabel 3050 4200 0    50   Input ~ 0
-ext_coil_1
-Text GLabel 3050 4300 0    50   Input ~ 0
-ext_coil_2
-Wire Wire Line
-	3050 4200 3450 4200
-Wire Wire Line
-	3050 4300 3600 4300
-Text GLabel 3300 3900 0    50   Input ~ 0
-ext_coil_shunt_1
-Text GLabel 3300 4000 0    50   Input ~ 0
-ext_coil_shunt_2
-Wire Wire Line
-	3300 4000 3450 4000
-Wire Wire Line
-	3450 4000 3450 4200
-Connection ~ 3450 4200
-Wire Wire Line
-	3450 4200 4950 4200
-Wire Wire Line
-	3300 3900 3600 3900
-Wire Wire Line
-	3600 3900 3600 4300
-Connection ~ 3600 4300
-Wire Wire Line
-	3600 4300 3950 4300
-Text GLabel 9200 4050 2    50   Input ~ 0
-mix_shunt_2
-Text GLabel 9200 3950 2    50   Input ~ 0
-mix_shunt_1
-Wire Wire Line
-	8200 3950 9200 3950
-Wire Wire Line
-	8950 4050 9200 4050
-Text Notes 2500 1950 0    50   ~ 0
-1, 2, 3: External coil\n4, 5: External coil shunt
-Text Notes 3800 1950 0    50   ~ 0
-10, 9, 8: Main output and power\n7, 6: Mixing resistor shunt
+	8200 3950 8500 3950
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60CC8E41
@@ -748,4 +611,128 @@ F 3 "~" H 8300 2700 50  0001 C CNN
 	1    8300 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60CDB5FB
+P 4950 2350
+F 0 "#PWR0106" H 4950 2100 50  0001 C CNN
+F 1 "GND" H 4950 2150 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0001 C CNN
+	1    4950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2200 4950 2350
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60D52BC1
+P 5150 2350
+F 0 "#FLG02" H 5150 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 2550 50  0000 C CNN
+F 2 "" H 5150 2350 50  0001 C CNN
+F 3 "~" H 5150 2350 50  0001 C CNN
+	1    5150 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2350 5150 2200
+Wire Wire Line
+	5150 2200 4950 2200
+Text Notes 3800 1950 0    50   ~ 0
+6, 7, 8: Main output and power\n9, 10: Mixing resistor shunt
+Text Notes 2500 1950 0    50   ~ 0
+5, 4, 3: External coil\n2, 1: External coil shunt
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 60CB8C21
+P 3550 2300
+F 0 "J1" H 3600 2717 50  0000 C CNN
+F 1 "I/O" H 3600 2626 50  0000 C CNN
+F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 60CC841D
+P 2450 2200
+F 0 "#PWR0107" H 2450 1950 50  0001 C CNN
+F 1 "GND" H 2450 2000 50  0000 C CNN
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "" H 2450 2200 50  0001 C CNN
+	1    2450 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2500 2    50   Input ~ 0
+out
+Text GLabel 3850 2400 2    50   Input ~ 0
+mix
+Text GLabel 3850 2300 2    50   Input ~ 0
+mix
+Text GLabel 3350 2100 0    50   Input ~ 0
+ext_coil+
+Text GLabel 3350 2300 0    50   Input ~ 0
+ext_coil-
+Text GLabel 3350 2400 0    50   Input ~ 0
+ext_coil-
+Text GLabel 3350 2500 0    50   Input ~ 0
+ext_coil+
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J4
+U 1 1 60CA3D47
+P 3850 4750
+F 0 "J4" H 3900 4550 50  0000 C CNN
+F 1 "Coil" H 3900 5050 50  0000 C CNN
+F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 3850 4750 50  0001 C CNN
+F 3 "~" H 3850 4750 50  0001 C CNN
+	1    3850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2100 3850 2100
+Wire Wire Line
+	3850 2200 4950 2200
+Connection ~ 4950 2200
+Wire Wire Line
+	3350 2200 2450 2200
+Text Label 3900 2100 0    50   ~ 0
+VCC
+Text Label 5050 4650 0    50   ~ 0
+IN-
+Text Label 5050 4450 0    50   ~ 0
+IN+
+Wire Wire Line
+	3650 5000 3650 4850
+Wire Wire Line
+	4150 4850 4150 5000
+Wire Wire Line
+	4150 5000 3650 5000
+Wire Wire Line
+	3650 4650 3650 4500
+Wire Wire Line
+	3650 4500 4150 4500
+Wire Wire Line
+	4150 4500 4150 4650
+Wire Wire Line
+	4150 4750 4400 4750
+Wire Wire Line
+	4950 4450 4950 4200
+Wire Wire Line
+	4950 4200 3350 4200
+Wire Wire Line
+	3350 4300 3650 4300
+Wire Wire Line
+	3650 4300 3650 4500
+Connection ~ 3650 4500
+Wire Wire Line
+	5200 4650 4950 4650
+Wire Wire Line
+	4950 4650 4950 5000
+Wire Wire Line
+	4950 5000 4150 5000
+Connection ~ 4150 5000
+Wire Wire Line
+	8750 4550 8950 4550
 $EndSCHEMATC

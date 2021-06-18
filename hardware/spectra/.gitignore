@@ -5,3 +5,4 @@
 *.xml
 # backup files
 *bak
+/_autosave-spectra.kicad_pcb
