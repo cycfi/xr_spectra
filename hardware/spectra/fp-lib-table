@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cycfi_library)(type KiCad)(uri /Users/joel/dev/cycfi/pcb_common/kicad_library/cycfi_library.pretty)(options "")(descr ""))
+)

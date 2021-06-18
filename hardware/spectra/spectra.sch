@@ -30,7 +30,7 @@ U 1 1 60CA3D47
 P 4350 4750
 F 0 "J4" H 4400 4550 50  0000 C CNN
 F 1 "Coil" H 4400 4976 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_2x03_P1.00mm_Vertical_SMD" H 4350 4750 50  0001 C CNN
+F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 4350 4750 50  0001 C CNN
 F 3 "~" H 4350 4750 50  0001 C CNN
 	1    4350 4750
 	1    0    0    -1  
@@ -251,8 +251,6 @@ Wire Wire Line
 	6700 4100 6850 4100
 Text GLabel 6850 4100 2    50   Input ~ 0
 V+
-Wire Wire Line
-	8200 3950 9100 3950
 $Bitmap
 Pos 9150 6850
 Scale 0.800000
@@ -500,50 +498,6 @@ Text Notes 8150 7650 0    50   ~ 0
 June 17, 2021
 Text Notes 10600 7650 0    50   ~ 0
 1.0
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 60D7A66C
-P 8250 2350
-F 0 "H2" H 8350 2396 50  0000 L CNN
-F 1 "Mounting Hole" H 8350 2305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 8250 2350 50  0001 C CNN
-F 3 "~" H 8250 2350 50  0001 C CNN
-	1    8250 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60D7C5DF
-P 8250 2550
-F 0 "H3" H 8350 2596 50  0000 L CNN
-F 1 "Mounting Hole" H 8350 2505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 8250 2550 50  0001 C CNN
-F 3 "~" H 8250 2550 50  0001 C CNN
-	1    8250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60D7CB77
-P 8250 2750
-F 0 "H4" H 8350 2796 50  0000 L CNN
-F 1 "Mounting Hole" H 8350 2705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 8250 2750 50  0001 C CNN
-F 3 "~" H 8250 2750 50  0001 C CNN
-	1    8250 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 60D79FF8
-P 8250 2150
-F 0 "H1" H 8350 2196 50  0000 L CNN
-F 1 "Mounting Hole" H 8350 2105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2mm" H 8250 2150 50  0001 C CNN
-F 3 "~" H 8250 2150 50  0001 C CNN
-	1    8250 2150
-	1    0    0    -1  
-$EndComp
 Text Notes 4250 5150 0    50   ~ 0
 Main Coil
 Wire Wire Line
@@ -553,119 +507,116 @@ Wire Wire Line
 Connection ~ 8950 4550
 Wire Wire Line
 	8950 4050 8950 4550
-Wire Wire Line
-	9100 4050 8950 4050
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60D54A12
-P 5150 1800
-F 0 "#FLG0101" H 5150 1875 50  0001 C CNN
-F 1 "PWR_FLAG" H 5150 1950 50  0000 C CNN
-F 2 "" H 5150 1800 50  0001 C CNN
-F 3 "~" H 5150 1800 50  0001 C CNN
-	1    5150 1800
+P 6450 1950
+F 0 "#FLG0101" H 6450 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 6450 2100 50  0000 C CNN
+F 2 "" H 6450 1950 50  0001 C CNN
+F 3 "~" H 6450 1950 50  0001 C CNN
+	1    6450 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1800 5150 1950
+	6450 1950 6450 2100
 Wire Wire Line
-	5150 1950 5550 1950
-Connection ~ 5150 1950
+	6450 2100 6850 2100
+Connection ~ 6450 2100
 Wire Wire Line
-	5150 2200 5150 1950
+	6450 2350 6450 2100
 Wire Wire Line
-	4500 1950 5150 1950
-Connection ~ 4500 1950
+	5800 2100 6450 2100
+Connection ~ 5800 2100
 Wire Wire Line
-	4500 2200 4500 1950
+	5800 2350 5800 2100
 Wire Wire Line
-	4200 1950 4500 1950
-Connection ~ 3650 2050
+	5500 2100 5800 2100
 Wire Wire Line
-	3850 2050 3650 2050
+	5150 2200 4950 2200
 Wire Wire Line
-	3850 2200 3850 2050
+	5150 2350 5150 2200
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 60D52BC1
-P 3850 2200
-F 0 "#FLG02" H 3850 2275 50  0001 C CNN
-F 1 "PWR_FLAG" H 3700 2400 50  0000 C CNN
-F 2 "" H 3850 2200 50  0001 C CNN
-F 3 "~" H 3850 2200 50  0001 C CNN
-	1    3850 2200
+P 5150 2350
+F 0 "#FLG02" H 5150 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 2550 50  0000 C CNN
+F 2 "" H 5150 2350 50  0001 C CNN
+F 3 "~" H 5150 2350 50  0001 C CNN
+	1    5150 2350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3650 2050 3650 2200
+	4950 2200 4950 2350
 $Comp
 L power:GND #PWR0106
 U 1 1 60CDB5FB
-P 3650 2200
-F 0 "#PWR0106" H 3650 1950 50  0001 C CNN
-F 1 "GND" H 3650 2000 50  0000 C CNN
-F 2 "" H 3650 2200 50  0001 C CNN
-F 3 "" H 3650 2200 50  0001 C CNN
-	1    3650 2200
+P 4950 2350
+F 0 "#PWR0106" H 4950 2100 50  0001 C CNN
+F 1 "GND" H 4950 2150 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0001 C CNN
+	1    4950 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 5550 1950 2    50   Input ~ 0
+Text GLabel 6850 2100 2    50   Input ~ 0
 V+
-Text GLabel 3200 2150 2    50   Input ~ 0
+Text GLabel 4000 2300 2    50   Input ~ 0
 Out
 $Comp
 L power:GND #PWR0105
 U 1 1 60CCD190
-P 4500 2500
-F 0 "#PWR0105" H 4500 2250 50  0001 C CNN
-F 1 "GND" H 4505 2327 50  0000 C CNN
-F 2 "" H 4500 2500 50  0001 C CNN
-F 3 "" H 4500 2500 50  0001 C CNN
-	1    4500 2500
+P 5800 2650
+F 0 "#PWR0105" H 5800 2400 50  0001 C CNN
+F 1 "GND" H 5805 2477 50  0000 C CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "" H 5800 2650 50  0001 C CNN
+	1    5800 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 60CCC3D1
-P 5150 2500
-F 0 "#PWR0104" H 5150 2250 50  0001 C CNN
-F 1 "GND" H 5155 2327 50  0000 C CNN
-F 2 "" H 5150 2500 50  0001 C CNN
-F 3 "" H 5150 2500 50  0001 C CNN
-	1    5150 2500
+P 6450 2650
+F 0 "#PWR0104" H 6450 2400 50  0001 C CNN
+F 1 "GND" H 6455 2477 50  0000 C CNN
+F 2 "" H 6450 2650 50  0001 C CNN
+F 3 "" H 6450 2650 50  0001 C CNN
+	1    6450 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 60CCB141
-P 5150 2350
-F 0 "C2" H 5265 2396 50  0000 L CNN
-F 1 "0.1uF" H 5265 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 2200 50  0001 C CNN
-F 3 "~" H 5150 2350 50  0001 C CNN
-	1    5150 2350
+P 6450 2500
+F 0 "C2" H 6565 2546 50  0000 L CNN
+F 1 "0.1uF" H 6565 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6488 2350 50  0001 C CNN
+F 3 "~" H 6450 2500 50  0001 C CNN
+	1    6450 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 60CCA260
-P 4500 2350
-F 0 "C1" H 4615 2396 50  0000 L CNN
-F 1 "4.5uF" H 4615 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 2200 50  0001 C CNN
-F 3 "~" H 4500 2350 50  0001 C CNN
-	1    4500 2350
+P 5800 2500
+F 0 "C1" H 5915 2546 50  0000 L CNN
+F 1 "4.5uF" H 5915 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 2350 50  0001 C CNN
+F 3 "~" H 5800 2500 50  0001 C CNN
+	1    5800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky_ALT D1
 U 1 1 60CC8B99
-P 4050 1950
-F 0 "D1" H 4050 1733 50  0000 C CNN
-F 1 "CUS551V30,H3F" H 4050 1824 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 4050 1950 50  0001 C CNN
-F 3 "~" H 4050 1950 50  0001 C CNN
-	1    4050 1950
+P 5350 2100
+F 0 "D1" H 5350 1883 50  0000 C CNN
+F 1 "CUS551V30,H3F" H 5350 1974 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 5350 2100 50  0001 C CNN
+F 3 "~" H 5350 2100 50  0001 C CNN
+	1    5350 2100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -673,92 +624,128 @@ Wire Wire Line
 Wire Wire Line
 	4950 4450 4950 4200
 Wire Wire Line
-	3050 2150 3200 2150
+	3850 2300 4000 2300
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 60CB8C21
+P 3550 2300
+F 0 "J1" H 3600 2717 50  0000 C CNN
+F 1 "I/O" H 3600 2626 50  0000 C CNN
+F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 2400 2    50   Input ~ 0
+mix_shunt_1
 Wire Wire Line
-	3050 2050 3650 2050
+	3850 2100 5200 2100
 Wire Wire Line
-	3050 1950 3900 1950
-Wire Wire Line
-	3400 4200 4950 4200
-Wire Wire Line
-	3050 4200 3400 4200
-Connection ~ 3400 4200
-Wire Wire Line
-	3400 3300 3400 4200
-Wire Wire Line
-	3500 4300 3950 4300
-Wire Wire Line
-	3050 4300 3500 4300
-Connection ~ 3500 4300
-Wire Wire Line
-	3500 3100 3500 4300
+	3850 2200 4950 2200
+Connection ~ 4950 2200
+Text GLabel 3850 2500 2    50   Input ~ 0
+mix_shunt_2
+Text GLabel 3350 2100 0    50   Input ~ 0
+ext_coil_1
+Text GLabel 3350 2300 0    50   Input ~ 0
+ext_coil_2
 $Comp
 L power:GND #PWR0107
-U 1 1 60CDDA60
-P 3650 3200
-F 0 "#PWR0107" H 3650 2950 50  0001 C CNN
-F 1 "GND" H 3655 3027 50  0000 C CNN
-F 2 "" H 3650 3200 50  0001 C CNN
-F 3 "" H 3650 3200 50  0001 C CNN
-	1    3650 3200
+U 1 1 60CC841D
+P 2450 2200
+F 0 "#PWR0107" H 2450 1950 50  0001 C CNN
+F 1 "GND" H 2450 2000 50  0000 C CNN
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "" H 2450 2200 50  0001 C CNN
+	1    2450 2200
 	1    0    0    -1  
 $EndComp
+Text GLabel 3350 2400 0    50   Input ~ 0
+ext_coil_shunt_1
 Wire Wire Line
-	3050 3300 3400 3300
+	2450 2200 3350 2200
+Text GLabel 3350 2500 0    50   Input ~ 0
+ext_coil_shunt_2
+Text GLabel 3050 4200 0    50   Input ~ 0
+ext_coil_1
+Text GLabel 3050 4300 0    50   Input ~ 0
+ext_coil_2
 Wire Wire Line
-	3050 3200 3650 3200
+	3050 4200 3450 4200
 Wire Wire Line
-	3050 3100 3500 3100
-Text Notes 9250 3800 0    50   ~ 0
-Mixing resistor shunt
-Text Notes 2000 4300 0    50   ~ 0
-External coil shunt
-Text Notes 1850 2100 0    50   ~ 0
-Main output and power
-Text Notes 2250 3250 0    50   ~ 0
-External coil
+	3050 4300 3600 4300
+Text GLabel 3300 3900 0    50   Input ~ 0
+ext_coil_shunt_1
+Text GLabel 3300 4000 0    50   Input ~ 0
+ext_coil_shunt_2
+Wire Wire Line
+	3300 4000 3450 4000
+Wire Wire Line
+	3450 4000 3450 4200
+Connection ~ 3450 4200
+Wire Wire Line
+	3450 4200 4950 4200
+Wire Wire Line
+	3300 3900 3600 3900
+Wire Wire Line
+	3600 3900 3600 4300
+Connection ~ 3600 4300
+Wire Wire Line
+	3600 4300 3950 4300
+Text GLabel 9200 4050 2    50   Input ~ 0
+mix_shunt_2
+Text GLabel 9200 3950 2    50   Input ~ 0
+mix_shunt_1
+Wire Wire Line
+	8200 3950 9200 3950
+Wire Wire Line
+	8950 4050 9200 4050
+Text Notes 2500 1950 0    50   ~ 0
+1, 2, 3: External coil\n4, 5: External coil shunt
+Text Notes 3800 1950 0    50   ~ 0
+10, 9, 8: Main output and power\n7, 6: Mixing resistor shunt
 $Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 60CEFF8F
-P 9300 3950
-F 0 "J5" H 9380 3942 50  0000 L CNN
-F 1 "Mix Shunt" H 9380 3851 50  0000 L CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" H 9300 3950 50  0001 C CNN
-F 3 "~" H 9300 3950 50  0001 C CNN
-	1    9300 3950
+L Mechanical:MountingHole H1
+U 1 1 60CC8E41
+P 8300 2100
+F 0 "H1" H 8400 2146 50  0000 L CNN
+F 1 "MountingHole" H 8400 2055 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2100 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 60CF2050
-P 2850 2050
-F 0 "J1" H 2768 1725 50  0000 C CNN
-F 1 "Output" H 2768 1816 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal" H 2850 2050 50  0001 C CNN
-F 3 "~" H 2850 2050 50  0001 C CNN
-	1    2850 2050
-	-1   0    0    1   
+L Mechanical:MountingHole H2
+U 1 1 60CC94F0
+P 8300 2300
+F 0 "H2" H 8400 2346 50  0000 L CNN
+F 1 "MountingHole" H 8400 2255 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2300 50  0001 C CNN
+F 3 "~" H 8300 2300 50  0001 C CNN
+	1    8300 2300
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 60CF10A9
-P 2850 3200
-F 0 "J2" H 2768 2875 50  0000 C CNN
-F 1 "Ext Coil" H 2768 2966 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal" H 2850 3200 50  0001 C CNN
-F 3 "~" H 2850 3200 50  0001 C CNN
-	1    2850 3200
-	-1   0    0    1   
+L Mechanical:MountingHole H3
+U 1 1 60CCA720
+P 8300 2500
+F 0 "H3" H 8400 2546 50  0000 L CNN
+F 1 "MountingHole" H 8400 2455 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2500 50  0001 C CNN
+F 3 "~" H 8300 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 60CEF0CC
-P 2850 4300
-F 0 "J3" H 2768 3975 50  0000 C CNN
-F 1 "Ext Shunt" H 2768 4066 50  0000 C CNN
-F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" H 2850 4300 50  0001 C CNN
-F 3 "~" H 2850 4300 50  0001 C CNN
-	1    2850 4300
-	-1   0    0    1   
+L Mechanical:MountingHole H4
+U 1 1 60CCABB9
+P 8300 2700
+F 0 "H4" H 8400 2746 50  0000 L CNN
+F 1 "MountingHole" H 8400 2655 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2700 50  0001 C CNN
+F 3 "~" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
