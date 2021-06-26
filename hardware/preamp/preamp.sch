@@ -548,17 +548,6 @@ F 3 "~" H 5800 2500 50  0001 C CNN
 	1    5800 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky_ALT D1
-U 1 1 60CC8B99
-P 5350 2100
-F 0 "D1" H 5350 1883 50  0000 C CNN
-F 1 "CUS551V30,H3F" H 5350 1974 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 5350 2100 50  0001 C CNN
-F 3 "~" H 5350 2100 50  0001 C CNN
-	1    5350 2100
-	-1   0    0    1   
-$EndComp
 Text GLabel 3350 4200 0    50   Input ~ 0
 ext_coil+
 Text GLabel 3350 4300 0    50   Input ~ 0
@@ -611,73 +600,34 @@ F 3 "~" H 8300 2700 50  0001 C CNN
 	1    8300 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 60CDB5FB
-P 4950 2350
-F 0 "#PWR0106" H 4950 2100 50  0001 C CNN
-F 1 "GND" H 4950 2150 50  0000 C CNN
-F 2 "" H 4950 2350 50  0001 C CNN
-F 3 "" H 4950 2350 50  0001 C CNN
-	1    4950 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 2200 4950 2350
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 60D52BC1
-P 5150 2350
-F 0 "#FLG02" H 5150 2425 50  0001 C CNN
-F 1 "PWR_FLAG" H 5000 2550 50  0000 C CNN
-F 2 "" H 5150 2350 50  0001 C CNN
-F 3 "~" H 5150 2350 50  0001 C CNN
-	1    5150 2350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 2350 5150 2200
-Wire Wire Line
-	5150 2200 4950 2200
-Text Notes 3800 1950 0    50   ~ 0
+Text Notes 3900 1500 0    50   ~ 0
 6, 7, 8: Main output and power\n9, 10: Mixing resistor shunt
-Text Notes 2500 1950 0    50   ~ 0
+Text Notes 2400 1500 0    50   ~ 0
 5, 4, 3: External coil\n2, 1: External coil shunt
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J1
-U 1 1 60CB8C21
-P 3550 2300
-F 0 "J1" H 3600 2717 50  0000 C CNN
-F 1 "I/O" H 3600 2626 50  0000 C CNN
-F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3550 2300 50  0001 C CNN
-F 3 "~" H 3550 2300 50  0001 C CNN
-	1    3550 2300
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 60CC841D
-P 2450 2200
-F 0 "#PWR0107" H 2450 1950 50  0001 C CNN
-F 1 "GND" H 2450 2000 50  0000 C CNN
-F 2 "" H 2450 2200 50  0001 C CNN
-F 3 "" H 2450 2200 50  0001 C CNN
-	1    2450 2200
+P 2750 2150
+F 0 "#PWR0107" H 2750 1900 50  0001 C CNN
+F 1 "GND" H 2750 1950 50  0000 C CNN
+F 2 "" H 2750 2150 50  0001 C CNN
+F 3 "" H 2750 2150 50  0001 C CNN
+	1    2750 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 2500 2    50   Input ~ 0
+Text GLabel 3850 1700 2    50   Input ~ 0
 out
-Text GLabel 3850 2400 2    50   Input ~ 0
+Text GLabel 3850 1800 2    50   Input ~ 0
 mix
-Text GLabel 3850 2300 2    50   Input ~ 0
+Text GLabel 3850 1900 2    50   Input ~ 0
 mix
 Text GLabel 3350 2100 0    50   Input ~ 0
 ext_coil+
-Text GLabel 3350 2300 0    50   Input ~ 0
+Text GLabel 3350 1900 0    50   Input ~ 0
 ext_coil-
-Text GLabel 3350 2400 0    50   Input ~ 0
+Text GLabel 3350 1800 0    50   Input ~ 0
 ext_coil-
-Text GLabel 3350 2500 0    50   Input ~ 0
+Text GLabel 3350 1700 0    50   Input ~ 0
 ext_coil+
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J4
@@ -692,11 +642,6 @@ F 3 "~" H 3850 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 2100 3850 2100
-Wire Wire Line
-	3850 2200 4950 2200
-Connection ~ 4950 2200
-Wire Wire Line
-	3350 2200 2450 2200
 Text Label 3900 2100 0    50   ~ 0
 VCC
 Text Label 5050 4650 0    50   ~ 0
@@ -735,4 +680,61 @@ Wire Wire Line
 Connection ~ 4150 5000
 Wire Wire Line
 	8750 4550 8950 4550
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 60CB8C21
+P 3550 1900
+F 0 "J1" H 3600 2317 50  0000 C CNN
+F 1 "I/O" H 3600 2226 50  0000 C CNN
+F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3550 1900 50  0001 C CNN
+F 3 "~" H 3550 1900 50  0001 C CNN
+	1    3550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60D52BC1
+P 4450 2150
+F 0 "#FLG02" H 4450 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 4300 2350 50  0000 C CNN
+F 2 "" H 4450 2150 50  0001 C CNN
+F 3 "~" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60CDB5FB
+P 4250 2150
+F 0 "#PWR0106" H 4250 1900 50  0001 C CNN
+F 1 "GND" H 4250 1950 50  0000 C CNN
+F 2 "" H 4250 2150 50  0001 C CNN
+F 3 "" H 4250 2150 50  0001 C CNN
+	1    4250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_ALT D1
+U 1 1 60CC8B99
+P 5350 2100
+F 0 "D1" H 5350 1883 50  0000 C CNN
+F 1 "CUS551V30,H3F" H 5350 1974 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 5350 2100 50  0001 C CNN
+F 3 "~" H 5350 2100 50  0001 C CNN
+	1    5350 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 2000 3850 2000
+Wire Wire Line
+	4450 2150 4450 2000
+Wire Wire Line
+	4450 2000 4250 2000
+Connection ~ 4250 2000
+Wire Wire Line
+	4250 2150 4250 2000
+Wire Wire Line
+	2750 2000 2750 2150
+Wire Wire Line
+	3350 2000 2750 2000
 $EndSCHEMATC
