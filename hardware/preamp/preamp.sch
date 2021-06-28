@@ -556,50 +556,6 @@ Text GLabel 8500 3950 2    50   Input ~ 0
 out
 Wire Wire Line
 	8200 3950 8500 3950
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 60CC8E41
-P 8300 2100
-F 0 "H1" H 8400 2146 50  0000 L CNN
-F 1 "MountingHole" H 8400 2055 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2100 50  0001 C CNN
-F 3 "~" H 8300 2100 50  0001 C CNN
-	1    8300 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 60CC94F0
-P 8300 2300
-F 0 "H2" H 8400 2346 50  0000 L CNN
-F 1 "MountingHole" H 8400 2255 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2300 50  0001 C CNN
-F 3 "~" H 8300 2300 50  0001 C CNN
-	1    8300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 60CCA720
-P 8300 2500
-F 0 "H3" H 8400 2546 50  0000 L CNN
-F 1 "MountingHole" H 8400 2455 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2500 50  0001 C CNN
-F 3 "~" H 8300 2500 50  0001 C CNN
-	1    8300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 60CCABB9
-P 8300 2700
-F 0 "H4" H 8400 2746 50  0000 L CNN
-F 1 "MountingHole" H 8400 2655 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 8300 2700 50  0001 C CNN
-F 3 "~" H 8300 2700 50  0001 C CNN
-	1    8300 2700
-	1    0    0    -1  
-$EndComp
 Text Notes 3900 1500 0    50   ~ 0
 6, 7, 8: Main output and power\n9, 10: Mixing resistor shunt
 Text Notes 2400 1500 0    50   ~ 0
@@ -737,4 +693,48 @@ Wire Wire Line
 	2750 2000 2750 2150
 Wire Wire Line
 	3350 2000 2750 2000
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60CCABB9
+P 8300 2700
+F 0 "H4" H 8400 2746 50  0000 L CNN
+F 1 "MountingHole" H 8400 2655 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 8300 2700 50  0001 C CNN
+F 3 "~" H 8300 2700 50  0001 C CNN
+	1    8300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60CCA720
+P 8300 2500
+F 0 "H3" H 8400 2546 50  0000 L CNN
+F 1 "MountingHole" H 8400 2455 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 8300 2500 50  0001 C CNN
+F 3 "~" H 8300 2500 50  0001 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60CC94F0
+P 8300 2300
+F 0 "H2" H 8400 2346 50  0000 L CNN
+F 1 "MountingHole" H 8400 2255 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 8300 2300 50  0001 C CNN
+F 3 "~" H 8300 2300 50  0001 C CNN
+	1    8300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60CC8E41
+P 8300 2100
+F 0 "H1" H 8400 2146 50  0000 L CNN
+F 1 "MountingHole" H 8400 2055 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 8300 2100 50  0001 C CNN
+F 3 "~" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
