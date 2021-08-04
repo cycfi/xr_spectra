@@ -16,27 +16,25 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 60CA6062
-P 6150 4150
-F 0 "#PWR0101" H 6150 3900 50  0001 C CNN
-F 1 "GND" H 6155 3977 50  0000 C CNN
-F 2 "" H 6150 4150 50  0001 C CNN
-F 3 "" H 6150 4150 50  0001 C CNN
-	1    6150 4150
+P 6350 4150
+F 0 "#PWR0101" H 6350 3900 50  0001 C CNN
+F 1 "GND" H 6355 3977 50  0000 C CNN
+F 2 "" H 6350 4150 50  0001 C CNN
+F 3 "" H 6350 4150 50  0001 C CNN
+	1    6350 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 60D40697
-P 5200 4150
-F 0 "#PWR0109" H 5200 3900 50  0001 C CNN
-F 1 "GND" H 5205 3977 50  0000 C CNN
-F 2 "" H 5200 4150 50  0001 C CNN
-F 3 "" H 5200 4150 50  0001 C CNN
-	1    5200 4150
+P 5000 4150
+F 0 "#PWR0109" H 5000 3900 50  0001 C CNN
+F 1 "GND" H 5005 3977 50  0000 C CNN
+F 2 "" H 5000 4150 50  0001 C CNN
+F 3 "" H 5000 4150 50  0001 C CNN
+	1    5000 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 3900 5200 3900
 $Bitmap
 Pos 9150 6850
 Scale 0.800000
@@ -342,61 +340,88 @@ F 3 "~" H 5600 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 4150 5400 4000
+	6350 3900 6350 4150
 Wire Wire Line
-	5900 4000 5900 4150
-Wire Wire Line
-	5900 4150 5400 4150
-Wire Wire Line
-	5400 3800 5400 3650
-Wire Wire Line
-	5400 3650 5900 3650
-Wire Wire Line
-	5900 3650 5900 3800
-Wire Wire Line
-	5900 3900 6150 3900
-$Comp
-L Connector_Generic:Conn_01x03 J1
-U 1 1 60D6F0CB
-P 4550 3900
-F 0 "J1" H 4468 3575 50  0000 C CNN
-F 1 "Main I/O" H 4468 3666 50  0000 C CNN
-F 2 "cycfi_library:pin_header_1x3p_2.54mm_smd_horizontal" H 4550 3900 50  0001 C CNN
-F 3 "~" H 4550 3900 50  0001 C CNN
-	1    4550 3900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6150 3900 6150 4150
-Wire Wire Line
-	4750 3800 5400 3800
-Connection ~ 5400 3800
-Wire Wire Line
-	4750 3900 5200 3900
-Connection ~ 5200 3900
-Wire Wire Line
-	5200 3900 5200 4150
-Wire Wire Line
-	4750 4000 5400 4000
-Connection ~ 5400 4000
-Text Label 4950 3800 0    50   ~ 0
-Coil+
-Text Label 4950 4000 0    50   ~ 0
-Coil-
+	5000 3900 5000 4150
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 60D6F7D1
-P 6300 4150
-F 0 "#FLG0101" H 6300 4225 50  0001 C CNN
-F 1 "PWR_FLAG" H 6050 4250 50  0000 C CNN
-F 2 "" H 6300 4150 50  0001 C CNN
-F 3 "~" H 6300 4150 50  0001 C CNN
-	1    6300 4150
+P 6500 4150
+F 0 "#FLG0101" H 6500 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 4250 50  0000 C CNN
+F 2 "" H 6500 4150 50  0001 C CNN
+F 3 "~" H 6500 4150 50  0001 C CNN
+	1    6500 4150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6300 4150 6300 3900
+	6500 4150 6500 3900
 Wire Wire Line
-	6300 3900 6150 3900
-Connection ~ 6150 3900
+	6500 3900 6350 3900
+Connection ~ 6350 3900
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J?
+U 1 1 60FA7E20
+P 4050 3900
+F 0 "J?" H 4100 4317 50  0000 C CNN
+F 1 "Main I/O" H 4100 4226 50  0000 C CNN
+F 2 "" H 4050 3900 50  0001 C CNN
+F 3 "~" H 4050 3900 50  0001 C CNN
+	1    4050 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3850 3700 0    50   Input ~ 0
+C+
+$Comp
+L power:GND #PWR?
+U 1 1 60FA9CE2
+P 3500 3800
+F 0 "#PWR?" H 3500 3550 50  0001 C CNN
+F 1 "GND" H 3505 3627 50  0000 C CNN
+F 2 "" H 3500 3800 50  0001 C CNN
+F 3 "" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 3700 2    50   Input ~ 0
+C+
+Text GLabel 3850 3900 0    50   Input ~ 0
+C-
+Text GLabel 4350 3900 2    50   Input ~ 0
+C-
+$Comp
+L power:GND #PWR?
+U 1 1 60FAABF1
+P 4700 3800
+F 0 "#PWR?" H 4700 3550 50  0001 C CNN
+F 1 "GND" H 4705 3627 50  0000 C CNN
+F 2 "" H 4700 3800 50  0001 C CNN
+F 3 "" H 4700 3800 50  0001 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3800 3850 3800
+Wire Wire Line
+	4350 3800 4700 3800
+Text GLabel 3850 4000 0    50   Input ~ 0
+C+
+Text GLabel 3850 4100 0    50   Input ~ 0
+C-
+Text GLabel 4350 4000 2    50   Input ~ 0
+H
+Text GLabel 4350 4100 2    50   Input ~ 0
+L
+Wire Wire Line
+	5000 3900 5400 3900
+Wire Wire Line
+	5900 3900 6350 3900
+Text GLabel 5400 3800 0    50   Input ~ 0
+OC1
+Text GLabel 5900 3800 2    50   Input ~ 0
+OC2
+Text GLabel 5400 4000 0    50   Input ~ 0
+CT1
+Text GLabel 5900 4000 2    50   Input ~ 0
+CT2
 $EndSCHEMATC
