@@ -17,7 +17,7 @@ $Comp
 L cycfi_library:TLV170DBV U1
 U 1 1 60CA2D4C
 P 8000 4500
-F 0 "U1" H 8100 4300 50  0000 L CNN
+F 0 "U1" H 8100 4300 50  0001 L CNN
 F 1 "TLV170DBV" H 8100 4200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7900 4300 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tlv170.pdf" H 8000 4700 50  0001 C CNN
@@ -1012,4 +1012,23 @@ Wire Wire Line
 Connection ~ 5750 1450
 Wire Wire Line
 	5300 1450 5150 1450
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 61378A1B
+P 3050 3950
+F 0 "JP1" V 3004 4048 50  0000 L CNN
+F 1 "Coil Shunt" V 3095 4048 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3050 3950 50  0001 C CNN
+F 3 "~" H 3050 3950 50  0001 C CNN
+	1    3050 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 3750 3050 3600
+Connection ~ 3050 3600
+Wire Wire Line
+	3050 4150 2900 4150
+Wire Wire Line
+	2900 4150 2900 4300
+Connection ~ 2900 4300
 $EndSCHEMATC
