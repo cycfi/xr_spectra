@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR0101
-U 1 1 60CA6062
-P 6350 4150
-F 0 "#PWR0101" H 6350 3900 50  0001 C CNN
-F 1 "GND" H 6355 3977 50  0000 C CNN
-F 2 "" H 6350 4150 50  0001 C CNN
-F 3 "" H 6350 4150 50  0001 C CNN
-	1    6350 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 60D40697
-P 5000 4150
-F 0 "#PWR0109" H 5000 3900 50  0001 C CNN
-F 1 "GND" H 5005 3977 50  0000 C CNN
-F 2 "" H 5000 4150 50  0001 C CNN
-F 3 "" H 5000 4150 50  0001 C CNN
-	1    5000 4150
-	1    0    0    -1  
-$EndComp
 $Bitmap
 Pos 9150 6850
 Scale 0.800000
@@ -282,146 +260,269 @@ Text Notes 8150 7650 0    50   ~ 0
 June 17, 2021
 Text Notes 10600 7650 0    50   ~ 0
 1.0
-Text Notes 5500 4300 0    50   ~ 0
+Text Notes 3450 3900 0    50   ~ 0
 Main Coil
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60CC8E41
-P 7200 3650
-F 0 "H1" H 7300 3696 50  0000 L CNN
-F 1 "MountingHole" H 7300 3605 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 3650 50  0001 C CNN
-F 3 "~" H 7200 3650 50  0001 C CNN
-	1    7200 3650
+P 7200 2200
+F 0 "H1" H 7300 2246 50  0000 L CNN
+F 1 "MountingHole" H 7300 2155 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2200 50  0001 C CNN
+F 3 "~" H 7200 2200 50  0001 C CNN
+	1    7200 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60CC94F0
-P 7200 3850
-F 0 "H2" H 7300 3896 50  0000 L CNN
-F 1 "MountingHole" H 7300 3805 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 3850 50  0001 C CNN
-F 3 "~" H 7200 3850 50  0001 C CNN
-	1    7200 3850
+P 7200 2400
+F 0 "H2" H 7300 2446 50  0000 L CNN
+F 1 "MountingHole" H 7300 2355 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2400 50  0001 C CNN
+F 3 "~" H 7200 2400 50  0001 C CNN
+	1    7200 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 60CCA720
-P 7200 4050
-F 0 "H3" H 7300 4096 50  0000 L CNN
-F 1 "MountingHole" H 7300 4005 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 4050 50  0001 C CNN
-F 3 "~" H 7200 4050 50  0001 C CNN
-	1    7200 4050
+P 7200 2600
+F 0 "H3" H 7300 2646 50  0000 L CNN
+F 1 "MountingHole" H 7300 2555 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2600 50  0001 C CNN
+F 3 "~" H 7200 2600 50  0001 C CNN
+	1    7200 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60CCABB9
-P 7200 4250
-F 0 "H4" H 7300 4296 50  0000 L CNN
-F 1 "MountingHole" H 7300 4205 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 4250 50  0001 C CNN
-F 3 "~" H 7200 4250 50  0001 C CNN
-	1    7200 4250
+P 7200 2800
+F 0 "H4" H 7300 2846 50  0000 L CNN
+F 1 "MountingHole" H 7300 2755 50  0000 L CNN
+F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2800 50  0001 C CNN
+F 3 "~" H 7200 2800 50  0001 C CNN
+	1    7200 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J4
+L Connector_Generic:Conn_02x03_Counter_Clockwise J2
 U 1 1 60CA3D47
-P 5600 3900
-F 0 "J4" H 5650 3700 50  0000 C CNN
-F 1 "Coil" H 5650 4200 50  0000 C CNN
-F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 5600 3900 50  0001 C CNN
-F 3 "~" H 5600 3900 50  0001 C CNN
-	1    5600 3900
+P 4500 4350
+F 0 "J2" H 4550 4150 50  0000 C CNN
+F 1 "Conn 1" H 4550 4650 50  0000 C CNN
+F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 4500 4350 50  0001 C CNN
+F 3 "~" H 4500 4350 50  0001 C CNN
+	1    4500 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 3900 6350 4150
-Wire Wire Line
-	5000 3900 5000 4150
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 60D6F7D1
-P 6500 4150
-F 0 "#FLG0101" H 6500 4225 50  0001 C CNN
-F 1 "PWR_FLAG" H 6250 4250 50  0000 C CNN
-F 2 "" H 6500 4150 50  0001 C CNN
-F 3 "~" H 6500 4150 50  0001 C CNN
-	1    6500 4150
+P 4400 2850
+F 0 "#FLG01" H 4400 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 2950 50  0000 C CNN
+F 2 "" H 4400 2850 50  0001 C CNN
+F 3 "~" H 4400 2850 50  0001 C CNN
+	1    4400 2850
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6500 4150 6500 3900
-Wire Wire Line
-	6500 3900 6350 3900
-Connection ~ 6350 3900
 $Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J?
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
 U 1 1 60FA7E20
-P 4050 3900
-F 0 "J?" H 4100 4317 50  0000 C CNN
-F 1 "Main I/O" H 4100 4226 50  0000 C CNN
-F 2 "" H 4050 3900 50  0001 C CNN
-F 3 "~" H 4050 3900 50  0001 C CNN
-	1    4050 3900
+P 4500 2300
+F 0 "J1" H 4550 2717 50  0000 C CNN
+F 1 "i/O" H 4550 2626 50  0000 C CNN
+F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 4500 2300 50  0001 C CNN
+F 3 "~" H 4500 2300 50  0001 C CNN
+	1    4500 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 3700 0    50   Input ~ 0
-C+
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 60FA9CE2
-P 3500 3800
-F 0 "#PWR?" H 3500 3550 50  0001 C CNN
-F 1 "GND" H 3505 3627 50  0000 C CNN
-F 2 "" H 3500 3800 50  0001 C CNN
-F 3 "" H 3500 3800 50  0001 C CNN
-	1    3500 3800
+P 4200 2850
+F 0 "#PWR03" H 4200 2600 50  0001 C CNN
+F 1 "GND" H 4205 2677 50  0000 C CNN
+F 2 "" H 4200 2850 50  0001 C CNN
+F 3 "" H 4200 2850 50  0001 C CNN
+	1    4200 2850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 3700 2    50   Input ~ 0
-C+
-Text GLabel 3850 3900 0    50   Input ~ 0
-C-
-Text GLabel 4350 3900 2    50   Input ~ 0
-C-
+Text GLabel 4050 2300 0    50   Input ~ 0
+ext_coil-
+Text GLabel 4050 2500 0    50   Input ~ 0
+ext_coil+
 $Comp
-L power:GND #PWR?
-U 1 1 60FAABF1
-P 4700 3800
-F 0 "#PWR?" H 4700 3550 50  0001 C CNN
-F 1 "GND" H 4705 3627 50  0000 C CNN
-F 2 "" H 4700 3800 50  0001 C CNN
-F 3 "" H 4700 3800 50  0001 C CNN
-	1    4700 3800
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
+U 1 1 6110D08C
+P 4500 5100
+F 0 "J3" H 4550 4900 50  0000 C CNN
+F 1 "Conn 2" H 4550 5400 50  0000 C CNN
+F 2 "cycfi_library:pin_socket_2x3p_1.00mm_smd_vertical" H 4500 5100 50  0001 C CNN
+F 3 "~" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6110F68A
+P 4050 4350
+F 0 "#PWR01" H 4050 4100 50  0001 C CNN
+F 1 "GND" H 4055 4177 50  0000 C CNN
+F 2 "" H 4050 4350 50  0001 C CNN
+F 3 "" H 4050 4350 50  0001 C CNN
+	1    4050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 6110FBDE
+P 4050 5100
+F 0 "#PWR02" H 4050 4850 50  0001 C CNN
+F 1 "GND" H 4055 4927 50  0000 C CNN
+F 2 "" H 4050 5100 50  0001 C CNN
+F 3 "" H 4050 5100 50  0001 C CNN
+	1    4050 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 3800 3850 3800
+	4050 4350 4200 4350
 Wire Wire Line
-	4350 3800 4700 3800
-Text GLabel 3850 4000 0    50   Input ~ 0
-C+
-Text GLabel 3850 4100 0    50   Input ~ 0
-C-
-Text GLabel 4350 4000 2    50   Input ~ 0
-H
-Text GLabel 4350 4100 2    50   Input ~ 0
-L
+	4050 5100 4200 5100
 Wire Wire Line
-	5000 3900 5400 3900
+	4300 5000 4200 5000
 Wire Wire Line
-	5900 3900 6350 3900
-Text GLabel 5400 3800 0    50   Input ~ 0
-OC1
-Text GLabel 5900 3800 2    50   Input ~ 0
-OC2
-Text GLabel 5400 4000 0    50   Input ~ 0
-CT1
-Text GLabel 5900 4000 2    50   Input ~ 0
-CT2
+	4200 5000 4200 5100
+Connection ~ 4200 5100
+Wire Wire Line
+	4200 5100 4300 5100
+Wire Wire Line
+	4300 5200 4200 5200
+Wire Wire Line
+	4200 5200 4200 5100
+Wire Wire Line
+	4300 4450 4200 4450
+Wire Wire Line
+	4200 4450 4200 4350
+Connection ~ 4200 4350
+Wire Wire Line
+	4200 4350 4300 4350
+Wire Wire Line
+	4300 4250 4200 4250
+Wire Wire Line
+	4200 4250 4200 4350
+Wire Wire Line
+	4800 4250 4900 4250
+Wire Wire Line
+	4900 4250 4900 4350
+Wire Wire Line
+	4900 4450 4800 4450
+Wire Wire Line
+	4800 5000 4900 5000
+Wire Wire Line
+	4900 5000 4900 5100
+Wire Wire Line
+	4900 5200 4800 5200
+Wire Wire Line
+	4800 5100 4900 5100
+Connection ~ 4900 5100
+Wire Wire Line
+	4900 5100 4900 5200
+Wire Wire Line
+	4800 4350 4900 4350
+Connection ~ 4900 4350
+Wire Wire Line
+	4900 4350 4900 4450
+Text GLabel 5100 2300 2    50   Input ~ 0
+out-
+Text GLabel 5100 2500 2    50   Input ~ 0
+out+
+Text GLabel 5000 5100 2    50   Input ~ 0
+out-
+Wire Wire Line
+	5000 5100 4900 5100
+Text GLabel 5000 4350 2    50   Input ~ 0
+int_coil+
+Wire Wire Line
+	5000 4350 4900 4350
+Text GLabel 5100 2200 2    50   Input ~ 0
+int_coil+
+Wire Wire Line
+	5100 2200 4800 2200
+Wire Wire Line
+	4200 2850 4200 2750
+Wire Wire Line
+	4400 2850 4400 2750
+Wire Wire Line
+	4400 2750 4200 2750
+Wire Wire Line
+	4800 2400 5000 2400
+Wire Wire Line
+	5000 2400 5000 2750
+Wire Wire Line
+	5000 2750 4400 2750
+Connection ~ 4400 2750
+Wire Wire Line
+	4050 2500 4300 2500
+Wire Wire Line
+	4300 2400 4200 2400
+Wire Wire Line
+	4200 2400 4200 2750
+Connection ~ 4200 2750
+Wire Wire Line
+	5100 2500 4900 2500
+Wire Wire Line
+	4800 2100 4900 2100
+Wire Wire Line
+	4900 2100 4900 2500
+Connection ~ 4900 2500
+Wire Wire Line
+	4900 2500 4800 2500
+Wire Notes Line
+	3450 1600 5700 1600
+Wire Notes Line
+	5700 3450 3450 3450
+Text Notes 3450 1550 0    50   ~ 0
+Main Connector
+Wire Notes Line
+	3450 3950 5700 3950
+Wire Notes Line
+	5700 3950 5700 6200
+Wire Notes Line
+	5700 6200 3450 6200
+Wire Notes Line
+	3450 6200 3450 3950
+Text Notes 3800 5850 0    50   ~ 0
+Redundant connections to the\ncoil via two small 1mm 2x3\nconnectors for improved \nreliability
+Wire Wire Line
+	4800 2300 5000 2300
+Wire Wire Line
+	4300 2100 4200 2100
+Wire Wire Line
+	4200 2100 4200 1750
+Wire Wire Line
+	4200 1750 5000 1750
+Wire Wire Line
+	5000 1750 5000 2300
+Connection ~ 5000 2300
+Wire Wire Line
+	5000 2300 5100 2300
+Text GLabel 4800 3250 0    50   Input ~ 0
+ext_coil+
+Text GLabel 5100 3250 2    50   Input ~ 0
+out+
+Wire Wire Line
+	4800 3250 5100 3250
+Text GLabel 4050 2200 0    50   Input ~ 0
+ext_coil-
+Wire Wire Line
+	4050 2300 4300 2300
+Wire Wire Line
+	4050 2200 4300 2200
+Wire Notes Line
+	5700 1600 5700 3450
+Wire Notes Line
+	3450 1600 3450 3450
 $EndSCHEMATC
