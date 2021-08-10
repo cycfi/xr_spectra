@@ -436,4 +436,28 @@ Text Label 4050 2300 0    50   ~ 0
 oc2
 Text Label 4050 2550 0    50   ~ 0
 ic2
+$Comp
+L cycfi_library:single_pad_smd H5
+U 1 1 6112BC09
+P 4250 2850
+F 0 "H5" H 4250 2975 50  0000 L CNN
+F 1 "single_pad_smd" H 4250 3050 50  0001 C CNN
+F 2 "cycfi_library:single-pad-5x3.5" H 4250 2850 50  0001 C CNN
+F 3 "~" H 4250 2850 50  0001 C CNN
+	1    4250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 6112C732
+P 4000 2850
+F 0 "#PWR03" H 4000 2600 50  0001 C CNN
+F 1 "GND" H 4005 2677 50  0000 C CNN
+F 2 "" H 4000 2850 50  0001 C CNN
+F 3 "" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2850 4000 2850
 $EndSCHEMATC

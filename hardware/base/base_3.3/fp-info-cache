@@ -1,4 +1,4 @@
-19234058922874372
+19237316261620372
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83097,6 +83097,13 @@ Surface mounted pin header SMD 2x03 1.00mm double row
 6
 6
 cycfi_library
+single-pad-3.5x2
+
+
+0
+1
+1
+cycfi_library
 single-pad-3x1.5
 
 
@@ -83105,6 +83112,13 @@ single-pad-3x1.5
 1
 cycfi_library
 single-pad-3x3-th
+
+
+0
+1
+1
+cycfi_library
+single-pad-5x3.5
 
 
 0
