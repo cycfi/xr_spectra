@@ -261,10 +261,10 @@ June 17, 2021
 Text Notes 10600 7650 0    50   ~ 0
 1.0
 $Comp
-L cycfi_library:single_pad_smd H1
+L cycfi_library:single_pad_smd OC1
 U 1 1 61122909
 P 4250 1800
-F 0 "H1" H 4250 1925 50  0000 L CNN
+F 0 "OC1" H 4250 1925 50  0000 L CNN
 F 1 "single_pad_smd" H 4250 2000 50  0001 C CNN
 F 2 "cycfi_library:single-pad-3.5x2" H 4250 1800 50  0001 C CNN
 F 3 "~" H 4250 1800 50  0001 C CNN
@@ -272,10 +272,10 @@ F 3 "~" H 4250 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cycfi_library:single_pad_smd H2
+L cycfi_library:single_pad_smd IC1
 U 1 1 61122FED
 P 4250 2050
-F 0 "H2" H 4250 2175 50  0000 L CNN
+F 0 "IC1" H 4250 2175 50  0000 L CNN
 F 1 "single_pad_smd" H 4250 2250 50  0001 C CNN
 F 2 "cycfi_library:single-pad-3.5x2" H 4250 2050 50  0001 C CNN
 F 3 "~" H 4250 2050 50  0001 C CNN
@@ -307,10 +307,10 @@ $EndComp
 Wire Wire Line
 	2300 2450 2600 2450
 $Comp
-L cycfi_library:single_pad_smd H3
+L cycfi_library:single_pad_smd OC2
 U 1 1 6112FFAE
 P 4250 2300
-F 0 "H3" H 4250 2425 50  0000 L CNN
+F 0 "OC2" H 4250 2425 50  0000 L CNN
 F 1 "single_pad_smd" H 4250 2500 50  0001 C CNN
 F 2 "cycfi_library:single-pad-3.5x2" H 4250 2300 50  0001 C CNN
 F 3 "~" H 4250 2300 50  0001 C CNN
@@ -318,10 +318,10 @@ F 3 "~" H 4250 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cycfi_library:single_pad_smd H4
+L cycfi_library:single_pad_smd IC2
 U 1 1 611302A2
 P 4250 2550
-F 0 "H4" H 4250 2675 50  0000 L CNN
+F 0 "IC2" H 4250 2675 50  0000 L CNN
 F 1 "single_pad_smd" H 4250 2750 50  0001 C CNN
 F 2 "cycfi_library:single-pad-3.5x2" H 4250 2550 50  0001 C CNN
 F 3 "~" H 4250 2550 50  0001 C CNN
@@ -440,7 +440,7 @@ $Comp
 L cycfi_library:single_pad_smd H5
 U 1 1 6112BC09
 P 4250 2850
-F 0 "H5" H 4250 2975 50  0000 L CNN
+F 0 "H5" H 4250 2975 50  0001 L CNN
 F 1 "single_pad_smd" H 4250 3050 50  0001 C CNN
 F 2 "cycfi_library:single-pad-5x3.5" H 4250 2850 50  0001 C CNN
 F 3 "~" H 4250 2850 50  0001 C CNN
@@ -450,14 +450,34 @@ $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 6112C732
-P 4000 2850
-F 0 "#PWR03" H 4000 2600 50  0001 C CNN
-F 1 "GND" H 4005 2677 50  0000 C CNN
-F 2 "" H 4000 2850 50  0001 C CNN
-F 3 "" H 4000 2850 50  0001 C CNN
-	1    4000 2850
+P 3850 2950
+F 0 "#PWR03" H 3850 2700 50  0001 C CNN
+F 1 "GND" H 3855 2777 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "" H 3850 2950 50  0001 C CNN
+	1    3850 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L cycfi_library:single_pad_smd H6
+U 1 1 6114C19E
+P 4250 3150
+F 0 "H6" H 4250 3275 50  0001 L CNN
+F 1 "single_pad_smd" H 4250 3350 50  0001 C CNN
+F 2 "cycfi_library:single-pad-5x3.5" H 4250 3150 50  0001 C CNN
+F 3 "~" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	4150 2850 4000 2850
+	4150 2850 4050 2850
+Wire Wire Line
+	3850 2850 3850 2950
+Wire Wire Line
+	4150 3150 4050 3150
+Wire Wire Line
+	4050 3150 4050 2850
+Connection ~ 4050 2850
+Wire Wire Line
+	4050 2850 3850 2850
 $EndSCHEMATC
