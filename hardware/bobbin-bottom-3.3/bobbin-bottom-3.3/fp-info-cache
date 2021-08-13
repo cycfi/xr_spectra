@@ -1,4 +1,4 @@
-19230793629292891
+19248716053066891
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83041,6 +83041,13 @@ core-pad
 1
 1
 cycfi_library
+cycfi-logo-12mm
+
+
+0
+0
+0
+cycfi_library
 cycfi-logo-15mm
 
 
@@ -83049,6 +83056,13 @@ cycfi-logo-15mm
 0
 cycfi_library
 mounting_hole_2.1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
+mounting_hole_st1.9
 Mounting Hole 2.1mm, no annular
 mounting hole 2.1mm no annular
 0
@@ -83069,6 +83083,13 @@ pin_header_1x3p_2.54mm_smd_horizontal
 3
 3
 cycfi_library
+pin_header_2x3p_1.00mm_smd_vertical
+surface-mounted straight pin header, 2x03, 1.00mm pitch, double rows
+Surface mounted pin header SMD 2x03 1.00mm double row
+0
+6
+6
+cycfi_library
 pin_header_2x5p_2.54mm_smd_horizontal
 
 
@@ -83083,6 +83104,41 @@ Surface mounted pin header SMD 2x03 1.00mm double row
 6
 6
 cycfi_library
+round-single-pad-0.9mm-th
+
+
+0
+1
+1
+cycfi_library
+round-single-pad-1.8mm-th
+
+
+0
+1
+1
+cycfi_library
+single-pad-2x2
+
+
+0
+1
+1
+cycfi_library
+single-pad-2x2-th
+
+
+0
+1
+1
+cycfi_library
+single-pad-3.5x2
+
+
+0
+1
+1
+cycfi_library
 single-pad-3x1.5
 
 
@@ -83090,7 +83146,28 @@ single-pad-3x1.5
 1
 1
 cycfi_library
+single-pad-3x2
+
+
+0
+1
+1
+cycfi_library
 single-pad-3x3-th
+
+
+0
+1
+1
+cycfi_library
+single-pad-5x3.5
+
+
+0
+1
+1
+cycfi_library
+single-pad-10x2
 
 
 0
