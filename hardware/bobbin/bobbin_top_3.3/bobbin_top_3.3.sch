@@ -43,7 +43,7 @@ U 1 1 60D997A7
 P 4850 3200
 F 0 "H3" V 5000 3250 50  0000 C CNN
 F 1 "single_pad_smd" H 4850 3400 50  0001 C CNN
-F 2 "cycfi_library:round-single-pad-1.8mm-th" H 4850 3200 50  0001 C CNN
+F 2 "cycfi_library:single-pad-10x2" H 4850 3200 50  0001 C CNN
 F 3 "~" H 4850 3200 50  0001 C CNN
 	1    4850 3200
 	0    -1   -1   0   
@@ -57,18 +57,4 @@ Text Notes 4350 3250 0    50   ~ 0
 GND Pad
 Wire Wire Line
 	4950 3200 5200 3200
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 60D8FEDB
-P 5900 3200
-F 0 "H4" V 5854 3350 50  0000 L CNN
-F 1 "Core GND" V 5945 3350 50  0000 L CNN
-F 2 "cycfi_library:single-pad-10x2" H 5900 3200 50  0001 C CNN
-F 3 "~" H 5900 3200 50  0001 C CNN
-	1    5900 3200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5800 3200 5550 3200
-Connection ~ 5550 3200
 $EndSCHEMATC

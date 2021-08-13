@@ -57,6 +57,9 @@ Text Notes 4350 3250 0    50   ~ 0
 GND Pad
 Wire Wire Line
 	4950 3200 5200 3200
+Connection ~ 5550 3200
+Wire Wire Line
+	5800 3200 5550 3200
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 60D8FEDB
@@ -68,7 +71,4 @@ F 3 "~" H 5900 3200 50  0001 C CNN
 	1    5900 3200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5800 3200 5550 3200
-Connection ~ 5550 3200
 $EndSCHEMATC
