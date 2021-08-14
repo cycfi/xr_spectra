@@ -1,0 +1,61 @@
+(export (version D)
+  (design
+    (source /Users/joel/dev/cycfi/xr_spectra/hardware/bobbin-bottom-3.3/bobbin-bottom-3.3/bobbin-bottom-3.3.sch)
+    (date "Friday, 13 August 2021 at 17:32:28")
+    (tool "Eeschema (5.1.10-1-10_14)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source bobbin-bottom-3.3.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref H3)
+      (value single_pad_smd)
+      (footprint cycfi_library:round-single-pad-1.8mm-th)
+      (datasheet ~)
+      (libsource (lib cycfi_library) (part single_pad_smd) (description "Mounting Hole with connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60D997A7))
+    (comp (ref H4)
+      (value "Core GND")
+      (footprint cycfi_library:single-pad-10x2)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole_Pad) (description "Mounting Hole with connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60D8FEDB)))
+  (libparts
+    (libpart (lib Mechanical) (part MountingHole_Pad)
+      (description "Mounting Hole with connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*Pad*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole_Pad))
+      (pins
+        (pin (num 1) (name 1) (type input))))
+    (libpart (lib cycfi_library) (part single_pad_smd)
+      (description "Mounting Hole with connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*Pad*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) single_pad_smd))
+      (pins
+        (pin (num 1) (name 1) (type input)))))
+  (libraries
+    (library (logical Mechanical)
+      (uri "/Library/Application Support/kicad/library/Mechanical.lib"))
+    (library (logical cycfi_library)
+      (uri /Users/joel/dev/cycfi/pcb_common/kicad_library/cycfi_library.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref H3) (pin 1))
+      (node (ref H4) (pin 1)))))
