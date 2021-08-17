@@ -494,10 +494,10 @@ Wire Notes Line
 Text Notes 5250 2150 0    50   ~ 0
 Resonant Filter
 $Comp
-L Switch:SW_Coded_SH-7050 SW1
+L Switch:SW_Coded_SH-7050 Q1
 U 1 1 611CF2DA
 P 7000 4550
-F 0 "SW1" V 7103 4220 50  0000 R CNN
+F 0 "Q1" V 7103 4220 50  0000 R CNN
 F 1 "RS32716R" V 7012 4220 50  0000 R CNN
 F 2 "cycfi_library:RS32716" H 6700 4100 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 7000 4550 50  0001 C CNN
@@ -510,10 +510,10 @@ Wire Wire Line
 	6800 3950 6600 3950
 Connection ~ 6600 3950
 $Comp
-L Switch:SW_Coded_SH-7050 SW2
+L Switch:SW_Coded_SH-7050 Freq1
 U 1 1 611D5413
 P 8300 4550
-F 0 "SW2" V 8403 4220 50  0000 R CNN
+F 0 "Freq1" V 8403 4220 50  0000 R CNN
 F 1 "RS32716C" V 8312 4220 50  0000 R CNN
 F 2 "cycfi_library:RS32716" H 8000 4100 50  0001 L CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf" H 8300 4550 50  0001 C CNN
@@ -548,7 +548,7 @@ U 1 1 611E560B
 P 3150 4000
 F 0 "J1" H 3200 4417 50  0000 C CNN
 F 1 "I/O" H 3200 4326 50  0000 C CNN
-F 2 "cycfi_library:pin_header_2x5p_2.54mm_smd_horizontal" H 3150 4000 50  0001 C CNN
+F 2 "cycfi_library:pin_header_2x05_P2.54mm_vertical" H 3150 4000 50  0001 C CNN
 F 3 "~" H 3150 4000 50  0001 C CNN
 	1    3150 4000
 	1    0    0    -1  
@@ -651,45 +651,23 @@ Text Notes 2500 3050 0    50   ~ 0
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61215F93
-P 2700 5950
-F 0 "H1" H 2800 5996 50  0000 L CNN
-F 1 "MountingHole" H 2800 5905 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_st1.9" H 2700 5950 50  0001 C CNN
-F 3 "~" H 2700 5950 50  0001 C CNN
-	1    2700 5950
+P 2800 5700
+F 0 "H1" H 2900 5746 50  0000 L CNN
+F 1 "MountingHole" H 2900 5655 50  0000 L CNN
+F 2 "cycfi_library:self_clinching_m3" H 2800 5700 50  0001 C CNN
+F 3 "~" H 2800 5700 50  0001 C CNN
+	1    2800 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61216B0B
-P 2700 6150
-F 0 "H2" H 2800 6196 50  0000 L CNN
-F 1 "MountingHole" H 2800 6105 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_st1.9" H 2700 6150 50  0001 C CNN
-F 3 "~" H 2700 6150 50  0001 C CNN
-	1    2700 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 61216C9C
-P 2700 6350
-F 0 "H3" H 2800 6396 50  0000 L CNN
-F 1 "MountingHole" H 2800 6305 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_st1.9" H 2700 6350 50  0001 C CNN
-F 3 "~" H 2700 6350 50  0001 C CNN
-	1    2700 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 61216E87
-P 2700 6550
-F 0 "H4" H 2800 6596 50  0000 L CNN
-F 1 "MountingHole" H 2800 6505 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_st1.9" H 2700 6550 50  0001 C CNN
-F 3 "~" H 2700 6550 50  0001 C CNN
-	1    2700 6550
+P 2800 5900
+F 0 "H2" H 2900 5946 50  0000 L CNN
+F 1 "MountingHole" H 2900 5855 50  0000 L CNN
+F 2 "cycfi_library:self_clinching_m3" H 2800 5900 50  0001 C CNN
+F 3 "~" H 2800 5900 50  0001 C CNN
+	1    2800 5900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
