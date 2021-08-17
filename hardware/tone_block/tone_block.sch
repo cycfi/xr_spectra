@@ -523,7 +523,7 @@ $EndComp
 Wire Wire Line
 	7800 2700 8100 2700
 Wire Wire Line
-	8100 4150 8100 2700
+	8100 4150 8100 2950
 Connection ~ 8100 2700
 Wire Wire Line
 	8100 2700 8800 2700
@@ -537,11 +537,6 @@ Wire Wire Line
 	8100 2450 9300 2450
 Text GLabel 9300 2950 2    50   Input ~ 0
 ext_cap
-Wire Wire Line
-	9300 2950 8200 2950
-Wire Wire Line
-	8200 2950 8200 3300
-Connection ~ 8200 3300
 $Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise J1
 U 1 1 611E560B
@@ -670,4 +665,9 @@ F 3 "~" H 2800 5900 50  0001 C CNN
 	1    2800 5900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8100 2950 9300 2950
+Connection ~ 8100 2950
+Wire Wire Line
+	8100 2950 8100 2700
 $EndSCHEMATC
