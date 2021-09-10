@@ -1,4 +1,4 @@
-19256864297119372
+19274800360601372
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83062,6 +83062,41 @@ cycfi-logo-15mm
 0
 0
 cycfi_library
+hole_1.2mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
+hole_1.2x2mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
+hole_1.2x3mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
+hole_1.5mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
+hole_1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+cycfi_library
 mounting_hole_2.1mm
 Mounting Hole 2.1mm, no annular
 mounting hole 2.1mm no annular
@@ -83082,6 +83117,41 @@ mounting hole 2.1mm no annular
 0
 0
 0
+cycfi_library
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+cycfi_library
+mouse-bite-2mm-slot-one-side
+
+
+0
+0
+0
+cycfi_library
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+cycfi_library
+mouse-bite-3mm-slot-one-side
+
+
+0
+0
+0
+cycfi_library
+nu_magnet_pad
+
+
+0
+1
+1
 cycfi_library
 pad_1x03_P2.54mm
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
@@ -83145,6 +83215,13 @@ mounting hole 2.1mm no annular
 0
 0
 0
+cycfi_library
+single-pad-1.5x1.5-th
+
+
+0
+1
+1
 cycfi_library
 single-pad-2x2
 
