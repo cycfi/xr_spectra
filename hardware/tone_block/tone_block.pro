@@ -1,6 +1,6 @@
-update=Friday, 10 September 2021 at 16:11:28
+update=Saturday, 25 September 2021 at 18:28:04
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=tone_block.net
 CopperLayerCount=2
-BoardThickness=1
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
