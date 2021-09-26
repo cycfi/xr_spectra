@@ -268,7 +268,7 @@ U 1 1 60CC8E41
 P 7200 2200
 F 0 "H1" H 7300 2246 50  0000 L CNN
 F 1 "MountingHole" H 7300 2155 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2200 50  0001 C CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 7200 2200 50  0001 C CNN
 F 3 "~" H 7200 2200 50  0001 C CNN
 	1    7200 2200
 	1    0    0    -1  
@@ -279,7 +279,7 @@ U 1 1 60CC94F0
 P 7200 2400
 F 0 "H2" H 7300 2446 50  0000 L CNN
 F 1 "MountingHole" H 7300 2355 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2400 50  0001 C CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 7200 2400 50  0001 C CNN
 F 3 "~" H 7200 2400 50  0001 C CNN
 	1    7200 2400
 	1    0    0    -1  
@@ -290,7 +290,7 @@ U 1 1 60CCA720
 P 7200 2600
 F 0 "H3" H 7300 2646 50  0000 L CNN
 F 1 "MountingHole" H 7300 2555 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2600 50  0001 C CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 7200 2600 50  0001 C CNN
 F 3 "~" H 7200 2600 50  0001 C CNN
 	1    7200 2600
 	1    0    0    -1  
@@ -301,7 +301,7 @@ U 1 1 60CCABB9
 P 7200 2800
 F 0 "H4" H 7300 2846 50  0000 L CNN
 F 1 "MountingHole" H 7300 2755 50  0000 L CNN
-F 2 "cycfi_library:mounting_hole_2.1mm" H 7200 2800 50  0001 C CNN
+F 2 "cycfi_library:mounting_hole_st1.9" H 7200 2800 50  0001 C CNN
 F 3 "~" H 7200 2800 50  0001 C CNN
 	1    7200 2800
 	1    0    0    -1  
