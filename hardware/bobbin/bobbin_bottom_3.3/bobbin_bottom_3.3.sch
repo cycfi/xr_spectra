@@ -14,61 +14,68 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR02
+L power:GND #PWR01
 U 1 1 60D88DF5
-P 5200 3350
-F 0 "#PWR02" H 5200 3100 50  0001 C CNN
-F 1 "GND" H 5205 3177 50  0000 C CNN
-F 2 "" H 5200 3350 50  0001 C CNN
-F 3 "" H 5200 3350 50  0001 C CNN
-	1    5200 3350
+P 4850 3000
+F 0 "#PWR01" H 4850 2750 50  0001 C CNN
+F 1 "GND" H 4855 2827 50  0000 C CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 60D8CE57
-P 5550 3350
-F 0 "#FLG0101" H 5550 3425 50  0001 C CNN
-F 1 "PWR_FLAG" H 5550 3523 50  0000 C CNN
-F 2 "" H 5550 3350 50  0001 C CNN
-F 3 "~" H 5550 3350 50  0001 C CNN
-	1    5550 3350
+P 5200 3000
+F 0 "#FLG01" H 5200 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 3173 50  0000 C CNN
+F 2 "" H 5200 3000 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5200 3000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5550 3200 5200 3200
 $Comp
-L cycfi_library:single_pad_smd H3
-U 1 1 60D997A7
-P 4850 3200
-F 0 "H3" V 5000 3250 50  0000 C CNN
-F 1 "single_pad_smd" H 4850 3400 50  0001 C CNN
-F 2 "cycfi_library:round-single-pad-1.8mm-th" H 4850 3200 50  0001 C CNN
-F 3 "~" H 4850 3200 50  0001 C CNN
-	1    4850 3200
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x01 J1
+U 1 1 6150EC9C
+P 6000 2350
+F 0 "J1" H 6080 2392 50  0000 L CNN
+F 1 "Conn_01x01" H 6080 2301 50  0000 L CNN
+F 2 "cycfi_library:xr2-oc-coil-connector" H 6000 2350 50  0001 C CNN
+F 3 "~" H 6000 2350 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
 $EndComp
-Connection ~ 5200 3200
 Wire Wire Line
-	5200 3350 5200 3200
+	4850 2650 5200 2650
 Wire Wire Line
-	5550 3350 5550 3200
-Text Notes 4350 3250 0    50   ~ 0
-GND Pad
+	4850 2650 4850 3000
 Wire Wire Line
-	4950 3200 5200 3200
-Connection ~ 5550 3200
-Wire Wire Line
-	5800 3200 5550 3200
+	5200 2650 5200 3000
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 60D8FEDB
-P 5900 3200
-F 0 "H4" V 5854 3350 50  0000 L CNN
-F 1 "Core GND" V 5945 3350 50  0000 L CNN
-F 2 "cycfi_library:single-pad-10x2" H 5900 3200 50  0001 C CNN
-F 3 "~" H 5900 3200 50  0001 C CNN
-	1    5900 3200
-	0    1    1    0   
+L Connector_Generic:Conn_01x03 J2
+U 1 1 615174B9
+P 6000 2750
+F 0 "J2" H 6080 2792 50  0000 L CNN
+F 1 "Conn_01x03" H 6080 2701 50  0000 L CNN
+F 2 "cycfi_library:xr2-coil-connector" H 6000 2750 50  0001 C CNN
+F 3 "~" H 6000 2750 50  0001 C CNN
+	1    6000 2750
+	1    0    0    -1  
 $EndComp
+Connection ~ 5200 2650
+Wire Wire Line
+	5200 2650 5800 2650
+Wire Wire Line
+	5800 2750 5450 2750
+Wire Wire Line
+	5450 2750 5450 2350
+Wire Wire Line
+	5450 2350 5800 2350
+Text Label 5800 2650 2    50   ~ 0
+GND
+Text Label 5800 2750 2    50   ~ 0
+OC
+Text Label 5800 2850 2    50   ~ 0
+IC
 $EndSCHEMATC
