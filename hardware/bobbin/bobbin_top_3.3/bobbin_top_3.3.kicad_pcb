@@ -102,7 +102,7 @@
     (add_net GND)
   )
 
-  (module cycfi_library:xr2-3.3-bobbin-top (layer F.Cu) (tedit 61503B54) (tstamp 61509521)
+  (module cycfi_library:xr2-3.3-bobbin-top (layer F.Cu) (tedit 6153F558) (tstamp 61509521)
     (at 134 65)
     (path /60D997A7)
     (fp_text reference H3 (at 0 6) (layer F.SilkS) hide
@@ -111,7 +111,7 @@
     (fp_text value ground-pad (at 0 -4) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole oval (at 0 0) (size 62.5 2.5) (drill oval 62 2) (layers *.Cu *.Mask)
+    (pad 1 thru_hole oval (at 0 0) (size 63 3) (drill oval 62 2) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
