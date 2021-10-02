@@ -43,7 +43,7 @@ U 1 1 60D997A7
 P 4850 3200
 F 0 "H3" V 5000 3250 50  0000 C CNN
 F 1 "single_pad_smd" H 4850 3400 50  0001 C CNN
-F 2 "cycfi_library:single-pad-10x2" H 4850 3200 50  0001 C CNN
+F 2 "cycfi_library:xr2-4.0-bobbin-top" H 4850 3200 50  0001 C CNN
 F 3 "~" H 4850 3200 50  0001 C CNN
 	1    4850 3200
 	0    -1   -1   0   
