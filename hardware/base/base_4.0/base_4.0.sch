@@ -261,28 +261,6 @@ June 17, 2021
 Text Notes 10600 7650 0    50   ~ 0
 1.0
 $Comp
-L cycfi_library:single_pad_smd OC1
-U 1 1 61122909
-P 4250 1800
-F 0 "OC1" H 4250 1925 50  0000 L CNN
-F 1 "single_pad_smd" H 4250 2000 50  0001 C CNN
-F 2 "cycfi_library:single-pad-2x2-th" H 4250 1800 50  0001 C CNN
-F 3 "~" H 4250 1800 50  0001 C CNN
-	1    4250 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L cycfi_library:single_pad_smd IC1
-U 1 1 61122FED
-P 4250 2050
-F 0 "IC1" H 4250 2175 50  0000 L CNN
-F 1 "single_pad_smd" H 4250 2250 50  0001 C CNN
-F 2 "cycfi_library:single-pad-2x2-th" H 4250 2050 50  0001 C CNN
-F 3 "~" H 4250 2050 50  0001 C CNN
-	1    4250 2050
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 61123E4A
 P 2300 2450
@@ -306,28 +284,6 @@ F 3 "~" H 2600 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 2450 2600 2450
-$Comp
-L cycfi_library:single_pad_smd OC2
-U 1 1 6112FFAE
-P 4250 2300
-F 0 "OC2" H 4250 2425 50  0000 L CNN
-F 1 "single_pad_smd" H 4250 2500 50  0001 C CNN
-F 2 "cycfi_library:single-pad-2x2-th" H 4250 2300 50  0001 C CNN
-F 3 "~" H 4250 2300 50  0001 C CNN
-	1    4250 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L cycfi_library:single_pad_smd IC2
-U 1 1 611302A2
-P 4250 2550
-F 0 "IC2" H 4250 2675 50  0000 L CNN
-F 1 "single_pad_smd" H 4250 2750 50  0001 C CNN
-F 2 "cycfi_library:single-pad-2x2-th" H 4250 2550 50  0001 C CNN
-F 3 "~" H 4250 2550 50  0001 C CNN
-	1    4250 2550
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J1
 U 1 1 611338FA
@@ -373,24 +329,6 @@ Connection ~ 3550 2450
 Wire Wire Line
 	3550 2450 3550 2550
 Wire Wire Line
-	4150 1800 3900 1800
-Wire Wire Line
-	3900 1800 3900 1900
-Wire Wire Line
-	3900 1900 3550 1900
-Wire Wire Line
-	4150 2550 3900 2550
-Wire Wire Line
-	3900 2550 3900 2450
-Wire Wire Line
-	3900 2450 3550 2450
-Wire Wire Line
-	4150 2300 3950 2300
-Wire Wire Line
-	3950 2300 3950 2050
-Wire Wire Line
-	3950 2050 4150 2050
-Wire Wire Line
 	2950 2350 2800 2350
 Wire Wire Line
 	2800 2350 2800 2450
@@ -428,56 +366,64 @@ Wire Wire Line
 	2800 1900 2800 2000
 Wire Wire Line
 	2600 1900 2800 1900
-Text Label 4050 1800 0    50   ~ 0
-oc1
-Text Label 4050 2050 0    50   ~ 0
-ic1
-Text Label 4050 2300 0    50   ~ 0
-oc2
-Text Label 4050 2550 0    50   ~ 0
-ic2
 $Comp
-L cycfi_library:single_pad_smd H5
-U 1 1 6112BC09
-P 4250 2850
-F 0 "H5" H 4250 2975 50  0001 L CNN
-F 1 "single_pad_smd" H 4250 3050 50  0001 C CNN
-F 2 "cycfi_library:single-pad-3x2" H 4250 2850 50  0001 C CNN
-F 3 "~" H 4250 2850 50  0001 C CNN
-	1    4250 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 6112C732
-P 3850 2950
-F 0 "#PWR03" H 3850 2700 50  0001 C CNN
-F 1 "GND" H 3855 2777 50  0000 C CNN
-F 2 "" H 3850 2950 50  0001 C CNN
-F 3 "" H 3850 2950 50  0001 C CNN
-	1    3850 2950
+L Connector_Generic:Conn_01x03 J3
+U 1 1 61509D32
+P 4300 1900
+F 0 "J3" H 4380 1942 50  0000 L CNN
+F 1 "Conn_01x03" H 4380 1851 50  0000 L CNN
+F 2 "cycfi_library:xr2-coil-connector" H 4300 1900 50  0001 C CNN
+F 3 "~" H 4300 1900 50  0001 C CNN
+	1    4300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L cycfi_library:single_pad_smd H6
-U 1 1 6114C19E
-P 4250 3100
-F 0 "H6" H 4250 3225 50  0001 L CNN
-F 1 "single_pad_smd" H 4250 3300 50  0001 C CNN
-F 2 "cycfi_library:single-pad-3x2" H 4250 3100 50  0001 C CNN
-F 3 "~" H 4250 3100 50  0001 C CNN
-	1    4250 3100
-	0    1    1    0   
+L Connector_Generic:Conn_01x03 J4
+U 1 1 6150A3D8
+P 4300 2450
+F 0 "J4" H 4380 2492 50  0000 L CNN
+F 1 "Conn_01x03" H 4380 2401 50  0000 L CNN
+F 2 "cycfi_library:xr2-coil-connector" H 4300 2450 50  0001 C CNN
+F 3 "~" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6150AFAE
+P 3800 2700
+F 0 "#PWR0101" H 3800 2450 50  0001 C CNN
+F 1 "GND" H 3805 2527 50  0000 C CNN
+F 2 "" H 3800 2700 50  0001 C CNN
+F 3 "" H 3800 2700 50  0001 C CNN
+	1    3800 2700
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 2850 3850 2950
+	4100 2350 3800 2350
 Wire Wire Line
-	3850 2850 4050 2850
+	4100 1800 3800 1800
+Text Label 4100 1900 2    50   ~ 0
+OC1
+Text Label 4100 2000 2    50   ~ 0
+IC1
+Text Label 4100 2450 2    50   ~ 0
+OC2
+Text Label 4100 2550 2    50   ~ 0
+IC2
 Wire Wire Line
-	4050 2850 4050 3100
+	4100 2000 3900 2000
 Wire Wire Line
-	4050 3100 4150 3100
-Connection ~ 4050 2850
+	3900 2000 3900 2550
 Wire Wire Line
-	4050 2850 4150 2850
+	3900 2550 4100 2550
+Wire Wire Line
+	3800 1800 3800 2350
+Wire Wire Line
+	3800 2700 3800 2350
+Connection ~ 3800 2350
+Wire Wire Line
+	4100 1900 3550 1900
+Wire Wire Line
+	4100 2450 3550 2450
 $EndSCHEMATC
