@@ -6,3 +6,4 @@
 # backup files
 *bak
 /_autosave-spectra.kicad_pcb
+/preamp-cache.lib
