@@ -1,0 +1,3 @@
+[submodule "hardware/pcb_common"]
+	path = hardware/pcb_common
+	url = ../pcb_common.git
