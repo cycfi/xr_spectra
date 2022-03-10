@@ -1741,7 +1741,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4cf97505-0f47-4ffc-abc6-089087ea1ced)
   )
-  (text "Hex Coded Switch" (at 144.78 87.63 0)
+  (text "Hex Coded Switch" (at 139.7 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6441b183-b8f2-458f-a23d-60e2b1f66dd6)
   )
