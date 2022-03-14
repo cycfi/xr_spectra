@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "cycfi_library")(type "KiCad")(uri "${KIPRJMOD}/../../pcb_common/kicad/cycfi_library.pretty")(options "")(descr ""))
-  (lib (name "xr_spectra_library")(type "KiCad")(uri "/Users/joel/dev/cycfi/xr_spectra/hardware/lib/kicad/xr_spectra_library.pretty")(options "")(descr ""))
-)
