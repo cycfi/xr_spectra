@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 61.0,
+          "drill": 71.0,
           "height": 2.2,
-          "width": 61.2
+          "width": 71.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -334,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bobbin_bottom_3.3.kicad_pro",
+    "filename": "bobbin_bottom_3.5.kicad_pro",
     "version": 1
   },
   "net_settings": {
