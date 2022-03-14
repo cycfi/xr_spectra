@@ -200,7 +200,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 01ded01d-eb09-4ea9-9c94-df7e78135d96)
   )
-  (polyline (pts (xy 123.825 86.995) (xy 123.825 100.965))
+  (polyline (pts (xy 123.19 87.63) (xy 123.19 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08668795-c1ce-442c-8138-0f2818a96e40)
   )
@@ -229,7 +229,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 60c40be7-6f82-48ce-bb18-b32da12bc351)
   )
-  (polyline (pts (xy 123.825 86.995) (xy 151.765 86.995))
+  (polyline (pts (xy 123.19 87.63) (xy 152.4 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6a5b234d-51d7-4892-bf13-fb8d30f5699a)
   )
@@ -274,7 +274,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d9abdac4-cfd8-4e19-8a5d-5e44f8b1424b)
   )
-  (polyline (pts (xy 151.765 100.965) (xy 123.825 100.965))
+  (polyline (pts (xy 152.4 101.6) (xy 123.19 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid dbcd87e6-956e-40b7-937c-0f9b8b346268)
   )
@@ -283,7 +283,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e53d234c-34ee-414a-bc81-a886319740b6)
   )
-  (polyline (pts (xy 151.765 86.995) (xy 151.765 100.965))
+  (polyline (pts (xy 152.4 87.63) (xy 152.4 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f1838d0c-f749-43b1-b02f-bdeae53dfab7)
   )
@@ -458,10 +458,10 @@
     (uuid ea622771-3cf0-4c6c-863e-6326c4f96725)
   )
 
-  (global_label "inner_coil" (shape input) (at 133.35 71.12 180) (fields_autoplaced)
+  (global_label "middle_coil" (shape input) (at 133.35 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ecd17538-5422-4aa3-9951-3654d3d4054e)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 121.7729 71.0406 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.2006 71.0406 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -469,7 +469,7 @@
   (symbol (lib_id "cycfi_library:single_pad") (at 172.72 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061122909)
-    (property "Reference" "OC1" (id 0) (at 175.895 71.12 90)
+    (property "Reference" "IC1" (id 0) (at 175.895 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "single_pad" (id 1) (at 177.8 71.12 0)
@@ -487,7 +487,7 @@
   (symbol (lib_id "cycfi_library:single_pad") (at 172.72 77.47 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061122fed)
-    (property "Reference" "IC1" (id 0) (at 175.895 77.47 90)
+    (property "Reference" "OC1" (id 0) (at 175.895 77.47 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "single_pad" (id 1) (at 177.8 77.47 0)
@@ -557,7 +557,7 @@
   (symbol (lib_id "cycfi_library:single_pad") (at 172.72 90.17 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006112ffae)
-    (property "Reference" "OC2" (id 0) (at 175.895 90.17 90)
+    (property "Reference" "IC2" (id 0) (at 175.895 90.17 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "single_pad" (id 1) (at 177.8 90.17 0)
@@ -575,7 +575,7 @@
   (symbol (lib_id "cycfi_library:single_pad") (at 172.72 83.82 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000611302a2)
-    (property "Reference" "IC2" (id 0) (at 175.895 83.82 90)
+    (property "Reference" "OC2" (id 0) (at 175.895 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "single_pad" (id 1) (at 177.8 83.82 0)
@@ -661,19 +661,19 @@
     (path "/00000000-0000-0000-0000-00006114c19e"
       (reference "H6") (unit 1) (value "single_pad") (footprint "xr_spectra_library:rail_slot_3.3")
     )
-    (path "/00000000-0000-0000-0000-000061122fed"
+    (path "/00000000-0000-0000-0000-000061122909"
       (reference "IC1") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.6x1.6_circular")
     )
-    (path "/00000000-0000-0000-0000-0000611302a2"
+    (path "/00000000-0000-0000-0000-00006112ffae"
       (reference "IC2") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.6x1.6_circular")
     )
     (path "/8d2043d0-1e2a-47a8-b40c-1d3c6b8242cf"
       (reference "J1") (unit 1) (value "conn_2x2") (footprint "cycfi_library:pin_header_2x2p_2.00mm_smd_vertical")
     )
-    (path "/00000000-0000-0000-0000-000061122909"
+    (path "/00000000-0000-0000-0000-000061122fed"
       (reference "OC1") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.6x1.6_circular")
     )
-    (path "/00000000-0000-0000-0000-00006112ffae"
+    (path "/00000000-0000-0000-0000-0000611302a2"
       (reference "OC2") (unit 1) (value "single_pad") (footprint "cycfi_library:single-pad-1.6x1.6_circular")
     )
   )
