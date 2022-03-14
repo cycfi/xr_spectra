@@ -666,7 +666,7 @@
     (property "Value" "MountingHole" (id 1) (at 201.93 82.9822 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (id 2) (at 199.39 81.28 0)
+    (property "Footprint" "cycfi_library:hole_3mm" (id 2) (at 199.39 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 199.39 81.28 0)
@@ -700,7 +700,7 @@
     (property "Value" "MountingHole" (id 1) (at 201.93 89.3322 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (id 2) (at 199.39 87.63 0)
+    (property "Footprint" "cycfi_library:hole_3mm" (id 2) (at 199.39 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 199.39 87.63 0)
@@ -723,10 +723,10 @@
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/6f1beb86-67e1-46bf-8c2b-6d1e1485d5c0"
-      (reference "H1") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "cycfi_library:hole_3mm")
     )
     (path "/b90f2dfd-9639-4bac-9825-9f33089900c6"
-      (reference "H2") (unit 1) (value "MountingHole") (footprint "")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "cycfi_library:hole_3mm")
     )
     (path "/00000000-0000-0000-0000-00006112bc09"
       (reference "H5") (unit 1) (value "single_pad") (footprint "xr_spectra_library:rail_slot_3.5")
