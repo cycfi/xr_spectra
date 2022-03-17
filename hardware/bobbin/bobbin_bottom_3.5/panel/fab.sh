@@ -12,3 +12,4 @@ kikit panelize \
     ../bobbin_bottom_3.5.kicad_pcb bobbin_bottom-3.5_panel.kicad_pcb
 
 kikit fab jlcpcb --no-drc bobbin_bottom-3.5_panel.kicad_pcb .
+mv gerbers.zip bobbin_bottom-3.5_gerbers.zip

@@ -11,3 +11,4 @@ kikit panelize \
     ../tone_block.kicad_pcb tone_block_panel.kicad_pcb
 
 kikit fab jlcpcb --assembly --schematic ../tone_block.kicad_sch tone_block_panel.kicad_pcb .
+mv gerbers.zip tone_block_gerbers.zip

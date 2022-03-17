@@ -12,3 +12,4 @@ kikit panelize \
     ../base_3.5.kicad_pcb base_3.5_panel.kicad_pcb
 
 kikit fab jlcpcb --no-drc base_3.5_panel.kicad_pcb .
+mv gerbers.zip base_3.5_gerbers.zip

@@ -11,3 +11,4 @@ kikit panelize \
     ../preamp.kicad_pcb preamp_panel.kicad_pcb
 
 kikit fab jlcpcb --assembly --schematic ../preamp.kicad_sch preamp_panel.kicad_pcb .
+mv gerbers.zip preamp_gerbers.zip
