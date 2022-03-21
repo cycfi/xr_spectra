@@ -384,8 +384,8 @@
       "idf": "",
       "netlist": "preamp.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "preamp.step",
+      "vrml": "preamp.wrl"
     },
     "page_layout_descr_file": ""
   },
