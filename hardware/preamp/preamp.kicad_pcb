@@ -72,7 +72,7 @@
       (subtractmaskfromsilk false)
       (outputformat 5)
       (mirror false)
-      (drillshape 0)
+      (drillshape 2)
       (scaleselection 1)
       (outputdirectory "3d/")
     )
