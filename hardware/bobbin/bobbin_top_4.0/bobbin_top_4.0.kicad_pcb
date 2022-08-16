@@ -69,7 +69,7 @@
   (net 1 "GND")
 
   (footprint "xr_spectra_library:rail_slot_4.0" (layer "F.Cu")
-    (tedit 622EB334) (tstamp 74796a55-82bc-4f74-9e9c-c7cb232069e3)
+    (tedit 62FBA670) (tstamp 74796a55-82bc-4f74-9e9c-c7cb232069e3)
     (at 129.75 101)
     (property "Sheetfile" "bobbin_top_4.0.kicad_sch")
     (property "Sheetname" "")
@@ -77,14 +77,14 @@
     (attr through_hole)
     (fp_text reference "H1" (at 0 -3 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4c9fdea7-ba0c-45cc-8f66-240980c37d5c)
+      (tstamp feb26ecb-9193-46ea-a41b-d09305bf0a3e)
     )
     (fp_text value "single_pad" (at 0 3 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
+      (tstamp 382ca670-6ae8-4de6-90f9-f241d1337171)
     )
-    (pad "1" thru_hole oval (at 0 0) (size 83.15 2.15) (drill oval 83 2) (layers *.Cu *.Mask)
-      (net 1 "GND") (pinfunction "1") (pintype "input") (tstamp 6919ceca-add4-40e0-ab4b-a1f58809f080))
+    (pad "1" thru_hole oval (at 0 0) (size 84 3) (drill oval 83 2) (layers *.Cu "B.Mask")
+      (net 1 "GND") (pinfunction "1") (pintype "input") (tstamp 5cf2db29-f7ab-499a-9907-cdeba64bf0f3))
   )
 
   (gr_line (start 171 100) (end 171 102) (layer "Dwgs.User") (width 0.01) (tstamp 038a3fe5-035a-4e1c-ba13-3474b63e4a27))
