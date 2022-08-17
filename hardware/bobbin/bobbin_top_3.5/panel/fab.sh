@@ -1,7 +1,7 @@
 kikit panelize \
     --layout 'grid; rows: 8; cols: 1; space: 2mm' \
-    --tabs 'fixed; vwidth: 10mm; vcount: 3' \
-    --cuts vcuts \
+    --tabs 'fixed; vwidth: 6mm; vcount: 3' \
+    --cuts 'mousebites; drill: 0.5mm; spacing: 1mm; offset: -0.251mm; prolong: -0.3mm' \
     --source 'tolerance: 10mm' \
     --post 'millradius: 1mm' \
     --framing 'railstb; width: 5mm; space: 3mm;' \
