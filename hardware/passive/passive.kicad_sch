@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "XR Spectra Passive Board")
+    (date "2022-12-22")
+    (rev "1.02")
+    (company "Document No. 2022013")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x02_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 2.54 0)
@@ -450,7 +457,7 @@
     (uuid fd470e95-4861-44fe-b1e4-6d8a7c66e144)
   )
 
-  (image (at 232.41 173.99) (scale 0.8)
+  (image (at 231.14 173.99) (scale 0.8)
     (uuid 7e08f2a4-63d6-468b-bd8b-ec607077e023)
     (data
       iVBORw0KGgoAAAANSUhEUgAABUAAAAB3CAYAAADCQeqJAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
@@ -601,14 +608,6 @@
     (at 161.29 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3e5abb65-30d9-4904-afb8-281b530b8e3c)
-  )
-  (text "June 17, 2021" (at 207.01 194.31 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5740c959-93d8-47fd-8f68-62f0109e753d)
-  )
-  (text "Spectra Passive" (at 187.96 190.5 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b6bcc3cf-50de-4a33-bc41-678825c1ecf2)
   )
   (text "1.0" (at 269.24 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
