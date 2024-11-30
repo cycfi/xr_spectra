@@ -28,6 +28,7 @@ fp-info-cache
 *.xml
 *.csv
 
+# Fab
 *gerber*
-*panel.kicad_pro
 *panel.kicad_pcb
+*panel.kicad_pro
