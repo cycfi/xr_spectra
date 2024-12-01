@@ -8,7 +8,7 @@ kikit panelize \
     --fiducials '3fid; hoffset: 5mm; voffset: 2.5mm; coppersize: 2mm; opening: 1mm;' \
     --text 'simple; anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
     --post 'millradius: 1mm' \
-    ../passive.kicad_pcb passive_panel.kicad_pcb
+    ../output_board.kicad_pcb output_board_panel.kicad_pcb
 
-kikit fab jlcpcb --no-drc passive_panel.kicad_pcb .
-mv gerbers.zip passive_gerbers.zip
+kikit fab jlcpcb --no-drc output_board_panel.kicad_pcb .
+mv gerbers.zip output_board_gerbers.zip
