@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "XR Spectra Base Board 60")
+    (date "2024-12-01")
+    (rev "v3.0")
+    (company "Document No. 2024005")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x02_Counter_Clockwise" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 2.54 0)
