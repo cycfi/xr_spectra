@@ -2310,8 +2310,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "INT_COIL+"
-		(at 132.15 51.95 180)
+	(gr_text "IC1"
+		(at 130.159524 51.95 180)
 		(layer "B.SilkS")
 		(uuid "8b0ec108-92cc-4b00-80c4-1b99039a6c50")
 		(effects
@@ -2322,8 +2322,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "OUT-"
-		(at 130.740476 56.55 180)
+	(gr_text "IC2"
+		(at 130.15 56.55 180)
 		(layer "B.SilkS")
 		(uuid "d3c4eb7c-ba6e-481e-a74f-e1a8961077f7")
 		(effects
