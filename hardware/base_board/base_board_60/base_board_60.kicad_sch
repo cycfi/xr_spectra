@@ -955,7 +955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "cycfi_library:xr_spectra_coil_pads"
 			(at 172.72 71.12 0)
 			(effects
 				(font
@@ -1021,7 +1021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "cycfi_library:xr_spectra_coil_pads"
 			(at 172.72 77.47 0)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "cycfi_library:xr_spectra_coil_pads"
 			(at 172.72 90.17 0)
 			(effects
 				(font
@@ -1219,7 +1219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "cycfi_library:xr_spectra_coil_pads"
 			(at 172.72 83.82 0)
 			(effects
 				(font
