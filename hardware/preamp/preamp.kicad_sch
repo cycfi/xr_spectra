@@ -1841,17 +1841,6 @@
 		)
 		(uuid "43b49f20-a221-4dcd-a62c-cd8caebc3637")
 	)
-	(text "Spectra Preamp"
-		(exclude_from_sim no)
-		(at 187.96 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a45789b-3855-401f-8139-3c734f7f52f9")
-	)
 	(text "2.0"
 		(exclude_from_sim no)
 		(at 269.24 194.31 0)
@@ -1862,17 +1851,6 @@
 			(justify left bottom)
 		)
 		(uuid "716e31c5-485f-40b5-88e3-a75900da9811")
-	)
-	(text "March 10, 2022"
-		(exclude_from_sim no)
-		(at 207.01 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1086f75-01ba-4188-8d36-75a9e2828ca9")
 	)
 	(text "Output"
 		(exclude_from_sim no)
