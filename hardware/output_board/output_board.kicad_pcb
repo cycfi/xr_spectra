@@ -1823,8 +1823,8 @@
 		(layer "Edge.Cuts")
 		(uuid "f1830a1b-f0cc-47ae-a2c9-679c82032f14")
 	)
-	(gr_text "XR Spectra \nPassive v3.0"
-		(at 147.985786 109.285786 90)
+	(gr_text "XR Spectra v3.0"
+		(at 147.585786 109.285786 90)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000060ce1a39")
 		(effects
