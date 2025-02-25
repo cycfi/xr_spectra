@@ -2247,6 +2247,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;270"
+			(at 147.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7d322b5-2cc7-4ab4-953c-5ca2eb1d4d62")
 		)
@@ -3703,7 +3712,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;0;0"
+		(property "JLCPCB_CORRECTION" "0;0;180"
 			(at 175.26 48.26 90)
 			(effects
 				(font
