@@ -937,7 +937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061122909")
-		(property "Reference" "IC1"
+		(property "Reference" "OC1"
 			(at 175.895 71.12 90)
 			(effects
 				(font
@@ -988,7 +988,7 @@
 		(instances
 			(project ""
 				(path "/b994142f-02ac-4881-9587-6d3df53c96d2"
-					(reference "IC1")
+					(reference "OC1")
 					(unit 1)
 				)
 			)
@@ -1003,7 +1003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061122fed")
-		(property "Reference" "OC1"
+		(property "Reference" "IC1"
 			(at 175.895 77.47 90)
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 		(instances
 			(project ""
 				(path "/b994142f-02ac-4881-9587-6d3df53c96d2"
-					(reference "OC1")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -1135,7 +1135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006112ffae")
-		(property "Reference" "IC2"
+		(property "Reference" "OC2"
 			(at 175.895 90.17 90)
 			(effects
 				(font
@@ -1186,7 +1186,7 @@
 		(instances
 			(project ""
 				(path "/b994142f-02ac-4881-9587-6d3df53c96d2"
-					(reference "IC2")
+					(reference "OC2")
 					(unit 1)
 				)
 			)
@@ -1201,7 +1201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000611302a2")
-		(property "Reference" "OC2"
+		(property "Reference" "IC2"
 			(at 175.895 83.82 90)
 			(effects
 				(font
@@ -1252,7 +1252,7 @@
 		(instances
 			(project ""
 				(path "/b994142f-02ac-4881-9587-6d3df53c96d2"
-					(reference "OC2")
+					(reference "IC2")
 					(unit 1)
 				)
 			)

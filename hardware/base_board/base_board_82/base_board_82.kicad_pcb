@@ -121,15 +121,17 @@
 		(at 85.75 52.75 -90)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "IC1"
-			(at 0 -2.75 0)
-			(layer "F.SilkS")
+		(property "Reference" "OC1"
+			(at 0 -3.1 180)
+			(unlocked yes)
+			(layer "B.SilkS")
 			(uuid "d652053f-09a5-4721-ab36-eb37cb6c0cb2")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "single_pad"
@@ -277,15 +279,17 @@
 		(at 164.75 52.75 90)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "OC1"
-			(at 0 -2.75 180)
-			(layer "F.SilkS")
+		(property "Reference" "IC1"
+			(at 0 -2.8 180)
+			(unlocked yes)
+			(layer "B.SilkS")
 			(uuid "dd696b01-a67b-4962-bf61-b70ea47610ca")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "single_pad"
@@ -433,15 +437,17 @@
 		(at 85.75 55.75 -90)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "OC2"
+		(property "Reference" "IC2"
 			(at 0 -3 180)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "B.SilkS")
 			(uuid "8f8f2d7f-c44b-4f87-80d8-40652bb8a628")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "single_pad"
@@ -589,15 +595,17 @@
 		(at 164.75 55.75 90)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "IC2"
-			(at 0 -2.5 180)
-			(layer "F.SilkS")
+		(property "Reference" "OC2"
+			(at 0 -3 180)
+			(unlocked yes)
+			(layer "B.SilkS")
 			(uuid "67a78795-df36-4af1-a1cc-46512905c632")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "single_pad"
@@ -2004,7 +2012,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "OC1/2"
+	(gr_text "IC1/2"
 		(at 119.45 52.05 180)
 		(layer "B.SilkS")
 		(uuid "7b0d2fe2-5955-4fa7-8aad-9953087da225")
@@ -2016,7 +2024,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IC1"
+	(gr_text "OC1"
 		(at 130.15 51.95 180)
 		(layer "B.SilkS")
 		(uuid "8b0ec108-92cc-4b00-80c4-1b99039a6c50")
@@ -2028,7 +2036,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IC2"
+	(gr_text "OC2"
 		(at 130.140476 56.55 180)
 		(layer "B.SilkS")
 		(uuid "d3c4eb7c-ba6e-481e-a74f-e1a8961077f7")
