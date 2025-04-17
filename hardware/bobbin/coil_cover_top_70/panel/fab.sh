@@ -9,7 +9,7 @@ kikit panelize \
     --fiducials '3fid; hoffset: 5mm; voffset: 2.5mm; coppersize: 2mm; opening: 1mm;' \
     --text 'simple; anchor: mt; voffset: 2.5mm; hjustify: center; vjustify: center;' \
     --post 'millradius: 1mm' \
-    ../bobbin_bottom_3.5.kicad_pcb bobbin_bottom-3.5_panel.kicad_pcb
+    ../coil_cover_top_70.kicad_pcb coil_cover_top_70_panel.kicad_pcb
 
-kikit fab jlcpcb --no-drc bobbin_bottom-3.5_panel.kicad_pcb .
-mv gerbers.zip bobbin_bottom-3.5_gerbers.zip
+kikit fab jlcpcb --no-drc coil_cover_top_70_panel.kicad_pcb .
+mv gerbers.zip coil_cover_top_70_gerbers.zip

@@ -334,7 +334,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bobbin_bottom_3.3.kicad_pro",
+    "filename": "coil_cover_bottom_60.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -366,7 +366,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "bobbin_bottom_3.3.net",
+      "netlist": "coil_cover_bottom_60.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

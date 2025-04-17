@@ -1,5 +1,5 @@
 #!/bin/bash
-for s in bottom_3.3 bottom_3.5 bottom_4.0 top_3.3 top_3.5 top_4.0
+for s in bottom_60 bottom_70 bottom_82 top_60 top_70 top_82
 do
   echo processing bobbin_$s
   cd bobbin_$s/panel

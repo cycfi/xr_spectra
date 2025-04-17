@@ -71,7 +71,7 @@
   (footprint "xr_spectra_library:rail_slot_3.5" (layer "F.Cu")
     (tedit 62FBA618) (tstamp 74796a55-82bc-4f74-9e9c-c7cb232069e3)
     (at 129.75 101)
-    (property "Sheetfile" "bobbin_top_3.5.kicad_sch")
+    (property "Sheetfile" "coil_cover_top_70.kicad_sch")
     (property "Sheetname" "")
     (path "/56a51644-b55f-492b-aa38-d2c3e210984a")
     (attr through_hole)
